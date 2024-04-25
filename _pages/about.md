@@ -17,38 +17,57 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Hi, this is Rongxi Tan. Currently I am an undergraduate student of School of Artificial Intelligence in Nanjing University advised by Associate Prof. [Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of LAMDA Group, led by professor [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest lies in **black-box optimization (BBO) algorithms**, especially in BBO in offline settings (where online evaluation is restricted), and their applications in AI4Science field, such as geoscience and soil property analysis. 
 
+<!--
+I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+-->
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.04*: &nbsp;🎉🎉 Hi, I finally create my personal page.
 
 # 📝 Publications 
+
+To appear.
+
+<!--
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Offline Multi-Objective Optimization](https://openreview.net/forum?id=3AuoStfUIH&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2024%2FConference%2FAuthors%23your-submissions))
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Ke Xue, **Rongxi Tan**, Xiaobin Huang, Chao Qian.
 
+Submitted to [the 41th International Conference on Machine Learning (ICML'2024)](https://icml.cc/)
+
+-->
+
+<!--
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+-->
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.10*: Bailu Scholarship (<1%), Nanjing University. 
+- *2023.05*: One Hundred Outstanding Youths in Qixia District, Communist Youth League of Qixia Distric. [[Link](https://mp.weixin.qq.com/s/40VpJyUOj3ZJ_amuK1cEJw?)]
+- *2022.12*: Pacemaker to Outstanding students, Nanjing University. 
+- *2022.12*, *2023.12*: Outstanding student, Nanjing University.
+- *2022.12*, *2023.12*: Outstanding volunteer, Nanjing University.
+- *2022.11*: Second Prize Nationwide in [National University Mathematical Modeling Competition (MCM), 2022](http://www.mcm.edu.cn/).
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.09 - now*, Undergradute in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
+- *2018.09 - 2021.06*, Xinhui No.1 Middle School, Guangdong. 
+
+
+<!--
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -56,3 +75,9 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+-->
+
+# 🥳 Miscellaneous
+- My Chinese name is 谭荣熙 (Tan Rongxi), which can be pronounced as /tan 'rʊŋ θi/ in Mandarin and /tɑːm wɪŋ 'heɪ/ in Cantonese.
+- I sincerely enjoy in Cantopop, and I am a fan of [Joey](https://en.wikipedia.org/wiki/Joey_Yung). It is absolutely cool that you are also interested in [心之科学](https://zh.wikipedia.org/wiki/%E5%BF%83%E4%B9%8B%E7%A7%91%E5%AD%B8).
+- I also enjoy working out, like going to the gym💪, jogging🏃, and playing badminton🏸 (though I could not play it for a long time due to injury😭).
