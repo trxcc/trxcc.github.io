@@ -19,7 +19,7 @@ redirect_from:
 
 Hi, this is Rongxi Tan. Currently I am an undergraduate student of School of Artificial Intelligence in Nanjing University advised by Associate Prof. [Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by professor [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
 
-My research interest lies in **black-box optimization (BBO) algorithms**, especially in BBO in offline settings (where online evaluation is restricted), and their applications in AI4Science field, such as geoscience and soil property analysis. 
+My research interest lies in **black-box optimization (BBO) algorithms**, especially in BBO in offline settings (where online evaluation is restricted), and their applications in AI4Science, such as geoscience and soil property analysis. 
 
 <!--
 I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
