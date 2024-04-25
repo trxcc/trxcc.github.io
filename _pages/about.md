@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, this is Rongxi Tan. Currently I am an undergraduate student of School of Artificial Intelligence in Nanjing University advised by Associate Prof. [Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of LAMDA Group, led by professor [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
+Hi, this is Rongxi Tan. Currently I am an undergraduate student of School of Artificial Intelligence in Nanjing University advised by Associate Prof. [Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by professor [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
 
 My research interest lies in **black-box optimization (BBO) algorithms**, especially in BBO in offline settings (where online evaluation is restricted), and their applications in AI4Science field, such as geoscience and soil property analysis. 
 
@@ -79,5 +79,5 @@ Submitted to [the 41th International Conference on Machine Learning (ICML'2024)]
 
 # 🥳 Miscellaneous
 - My Chinese name is 谭荣熙 (Tan Rongxi), which can be pronounced as /tan 'rʊŋ θi/ in Mandarin and /tɑːm wɪŋ 'heɪ/ in Cantonese.
-- I sincerely enjoy in Cantopop, and I am a fan of [Joey](https://en.wikipedia.org/wiki/Joey_Yung). It is absolutely cool that you are also interested in [心之科学](https://zh.wikipedia.org/wiki/%E5%BF%83%E4%B9%8B%E7%A7%91%E5%AD%B8).
+- I sincerely enjoy in Cantopop, and I am a fan of [Joey](https://en.wikipedia.org/wiki/Joey_Yung). It would be absolutely cool if you are also interested in [心之科学](https://zh.wikipedia.org/wiki/%E5%BF%83%E4%B9%8B%E7%A7%91%E5%AD%B8).
 - I also enjoy working out, like going to the gym💪, jogging🏃, and playing badminton🏸 (though I could not play it for a long time due to injury😭).
