@@ -60,7 +60,7 @@ Submitted to [the 41th International Conference on Machine Learning (ICML'2024)]
 - *2022.12*: Pacemaker to Outstanding students, Nanjing University. 
 - *2022.12*, *2023.12*: Outstanding student, Nanjing University.
 - *2022.12*, *2023.12*: Outstanding volunteer, Nanjing University.
-- *2022.11*: Second Prize Nationwide in [National University Mathematical Modeling Competition (MCM), 2022](http://www.mcm.edu.cn/).
+- *2022.11*: Second Prize Nationwide in [National University Mathematical Modeling Competition (MCM)](http://www.mcm.edu.cn/).
 
 # 📖 Educations
 - *2021.09 - now*, Undergradute in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
@@ -79,5 +79,5 @@ Submitted to [the 41th International Conference on Machine Learning (ICML'2024)]
 
 # 🥳 Miscellaneous
 - My Chinese name is 谭荣熙 (Tan Rongxi), which can be pronounced as /tan 'rʊŋ θi/ in Mandarin and /tɑːm wɪŋ 'heɪ/ in Cantonese.
-- I sincerely enjoy in Cantopop, and I am a fan of [Joey](https://en.wikipedia.org/wiki/Joey_Yung). It would be absolutely cool if you are also interested in [心之科学](https://zh.wikipedia.org/wiki/%E5%BF%83%E4%B9%8B%E7%A7%91%E5%AD%B8).
+- I sincerely enjoy in Cantopop, and I am a fan of [Joey](https://en.wikipedia.org/wiki/Joey_Yung). It would be absolutely cool if you are also interested in [心之科學](https://zh.wikipedia.org/wiki/%E5%BF%83%E4%B9%8B%E7%A7%91%E5%AD%B8).
 - I also enjoy working out, like going to the gym💪, jogging🏃, and playing badminton🏸 (though I could not play it for a long time due to injury😭).
