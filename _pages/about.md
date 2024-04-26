@@ -58,7 +58,7 @@ Submitted to [the 41th International Conference on Machine Learning (ICML'2024)]
 - *2024.04*: Merit Student of Jiangsu Province.
 - *2023.11*: Bailu Scholarship (<1%), Nanjing University. 
 - *2023.07*: Pacemaker to Outstanding students, Nanjing University. 
-- *2023.05*: One Hundred Outstanding Youths in Qixia District, Communist Youth League of Qixia Distric. [[Link](https://mp.weixin.qq.com/s/40VpJyUOj3ZJ_amuK1cEJw?)]
+- *2023.05*: One Hundred Outstanding Youths of Qixia District, Communist Youth League of Qixia District. [[Link](https://mp.weixin.qq.com/s/40VpJyUOj3ZJ_amuK1cEJw?)]
 - *2022.12*, *2023.12*: Outstanding student, Nanjing University.
 - *2022.12*, *2023.12*: Outstanding volunteer, Nanjing University.
 - *2022.11*: Second Prize Nationwide in [National University Mathematical Modeling Competition (MCM)](http://www.mcm.edu.cn/).
