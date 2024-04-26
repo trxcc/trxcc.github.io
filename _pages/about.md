@@ -55,6 +55,7 @@ Submitted to [the 41th International Conference on Machine Learning (ICML'2024)]
 -->
 
 # 🎖 Honors and Awards
+- *2024.04*: Merit Student of Jiangsu Province.
 - *2023.10*: Bailu Scholarship (<1%), Nanjing University. 
 - *2023.05*: One Hundred Outstanding Youths in Qixia District, Communist Youth League of Qixia Distric. [[Link](https://mp.weixin.qq.com/s/40VpJyUOj3ZJ_amuK1cEJw?)]
 - *2022.12*: Pacemaker to Outstanding students, Nanjing University. 
