@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, this is Rongxi Tan. Currently I am a third-year undergraduate student of School of Artificial Intelligence in Nanjing University advised by Associate Prof. [Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by professor [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
+Hi, this is Rongxi Tan. Currently I am a third-year undergraduate student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by Associate Prof. [Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by professor [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
 
 My research interest lies in **black-box optimization (BBO) algorithms**, especially in BBO in offline settings (where online evaluation is restricted), and their applications in AI4Science, such as geoscience and soil property analysis. 
 
