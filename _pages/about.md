@@ -39,7 +39,7 @@ I have published more than 100 papers at the top international AI conferences wi
 
 Ke Xue, **Rong-Xi Tan**, Xiaobin Huang, Chao Qian.
 
-In: **the 41th International Conference on Machine Learning (ICML'2024)**, Vienna, Austria, 2024, to appear. [[Paper](https://openreview.net/forum?id=3AuoStfUIH&noteId=pIkIX1tXjl)]
+In: **Proceedings of the 41st International Conference on Machine Learning (ICML'2024)**, Vienna, Austria, 2024, to appear. [[Paper](https://openreview.net/forum?id=3AuoStfUIH&noteId=pIkIX1tXjl)]
 </div>
 </div>
 
