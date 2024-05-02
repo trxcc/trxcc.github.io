@@ -26,24 +26,22 @@ I have published more than 100 papers at the top international AI conferences wi
 -->
 
 # 🔥 News
+- *2024.04*: &nbsp;🎉🎉 Offline-MOO is accepted by ICML'2024.
+- *2024.04*: &nbsp;🎉🎉 I am awarded as a Merit Student of Jiangsu Province.
 - *2024.04*: &nbsp;🎉🎉 Hi, I finally create my personal page.
 
 # 📝 Publications 
 
-To appear.
-
-<!--
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='images/offline-moo.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Offline Multi-Objective Optimization](https://openreview.net/forum?id=3AuoStfUIH&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2024%2FConference%2FAuthors%23your-submissions))
+**Offline Multi-Objective Optimization**
 
-Ke Xue, **Rongxi Tan**, Xiaobin Huang, Chao Qian.
+Ke Xue, **Rong-Xi Tan**, Xiaobin Huang, Chao Qian.
 
-Submitted to [the 41th International Conference on Machine Learning (ICML'2024)](https://icml.cc/)
-
--->
+In: **the 41th International Conference on Machine Learning (ICML'2024)**, Vienna, Austria, 2024, to appear. [[Paper](https://openreview.net/forum?id=3AuoStfUIH&noteId=pIkIX1tXjl)]
+</div>
+</div>
 
 <!--
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
