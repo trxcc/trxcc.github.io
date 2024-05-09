@@ -26,7 +26,7 @@ I have published more than 100 papers at the top international AI conferences wi
 -->
 
 # 🔥 News
-- *2024.04*: &nbsp;🎉🎉 Offline-MOO is accepted by ICML'2024.
+- *2024.05*: &nbsp;🎉🎉 Offline-MOO is accepted by ICML'2024.
 - *2024.04*: &nbsp;🎉🎉 I am awarded as a Merit Student of Jiangsu Province.
 - *2024.04*: &nbsp;🎉🎉 Hi, I finally create my personal page.
 
