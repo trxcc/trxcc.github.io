@@ -80,3 +80,5 @@ In: **Proceedings of the 41st International Conference on Machine Learning (ICML
 - My Chinese name is 谭荣熙 (Tan Rongxi), which can be pronounced as /tɑːm wɪŋ 'heɪ/ in Cantonese.
 - I sincerely enjoy in Cantopop, and I am a fan of [Joey](https://en.wikipedia.org/wiki/Joey_Yung). It would be absolutely cool if you are also interested in [心之科學](https://zh.wikipedia.org/wiki/%E5%BF%83%E4%B9%8B%E7%A7%91%E5%AD%B8).
 - I also enjoy working out, like going to the gym💪, jogging🏃, and playing badminton🏸 (though I could not play it for a long time due to injury😭).
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=5yfauFD3He7e5eUfjK92_4cq7sJHjoAJIS6eoVMNLWo&cl=ffffff&w=a" width="80%"></script>
