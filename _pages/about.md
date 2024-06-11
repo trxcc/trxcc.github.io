@@ -39,7 +39,7 @@ I have published more than 100 papers at the top international AI conferences wi
 
 Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian.
 
-In: **Proceedings of the 41st International Conference on Machine Learning (ICML'2024)**, Vienna, Austria, 2024, to appear. 
+In: **Proceedings of the 41st International Conference on Machine Learning (ICML'2024)**, Vienna, Austria, 2024. [[Arxiv](https://arxiv.org/abs/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
 </div>
 </div>
 
