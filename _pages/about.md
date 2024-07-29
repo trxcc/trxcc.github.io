@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, this is Rongxi Tan. Currently I am a third-year undergraduate student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by Associate Prof. [Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by professor [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
+Hi, this is Rong-Xi Tan. Currently I am a third-year undergraduate student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by Associate Prof. [Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by professor [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
 
 My research interest lies in **black-box optimization (BBO) algorithms**, especially in BBO in offline settings (where online evaluation is restricted), and their applications in AI4Science, such as geoscience and soil property analysis. 
 
@@ -32,6 +32,8 @@ I have published more than 100 papers at the top international AI conferences wi
 
 # 📝 Publications 
 
+## 📈 Conference
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='images/offline-moo.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -42,6 +44,11 @@ Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian.
 In: **Proceedings of the 41st International Conference on Machine Learning (ICML'2024)**, Vienna, Austria, 2024. [[Arxiv](https://arxiv.org/abs/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
 </div>
 </div>
+
+## 📚 Journal
+
+1. Han Hu\*, Chao Qian\*, Ke Xue\*, Rainer Georg Jörgensen, Marco Keiluweit, Chao Liang, Xuefeng Zhu, Ji Chen, Yishen Sun, Haowei Ni, Jixian Ding, Weigen Huang, Jingdong Mao, **Rong-Xi Tan**, Jizhong Zhou, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Uncertainty in Estimating Soil Microbial Derived Carbon Storage. **Proceedings of the National Academy of Sciences (PNAS)**, in press.
+
 
 <!--
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
@@ -56,7 +63,7 @@ In: **Proceedings of the 41st International Conference on Machine Learning (ICML
 - *2024.04*: Merit Student of Jiangsu Province.
 - *2023.11*: Bailu Scholarship (<1%), Nanjing University. 
 - *2023.07*: Pacemaker to Outstanding students, Nanjing University. 
-- *2023.05*: One Hundred Outstanding Youths of Qixia District, Communist Youth League of Qixia District. [[Link](https://mp.weixin.qq.com/s/40VpJyUOj3ZJ_amuK1cEJw?)]
+- *2023.05*: One Hundred Outstanding Youths of Qixia District, Communist Youth League of Qixia District. 
 - *2022.12*, *2023.12*: Outstanding student, Nanjing University.
 - *2022.12*, *2023.12*: Outstanding volunteer, Nanjing University.
 - *2022.11*: Second Prize Nationwide in [National University Mathematical Modeling Competition (MCM)](http://www.mcm.edu.cn/).
