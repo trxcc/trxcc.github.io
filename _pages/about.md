@@ -41,13 +41,13 @@ I have published more than 100 papers at the top international AI conferences wi
 
 Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian.
 
-In: **Proceedings of the 41st International Conference on Machine Learning (ICML'2024)**, Vienna, Austria, 2024, pp.55595-55624. [[PDF](https://arxiv.org/pdf/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
+In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp.55595-55624. [[PDF](https://arxiv.org/pdf/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
 </div>
 </div>
 
 ## 📚 Journal
 
-1. Han Hu\*, Chao Qian\*, Ke Xue\*, Rainer Georg Jörgensen, Marco Keiluweit, Chao Liang, Xuefeng Zhu, Ji Chen, Yishen Sun, Haowei Ni, Jixian Ding, Weigen Huang, Jingdong Mao, **Rong-Xi Tan**, Jizhong Zhou, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Uncertainty in Estimating Soil Microbial Derived Carbon Storage. **Proceedings of the National Academy of Sciences (PNAS)**, in press.
+1. Han Hu\*, Chao Qian\*, Ke Xue\*, Rainer Georg Jörgensen, Marco Keiluweit, Chao Liang, Xuefeng Zhu, Ji Chen, Yishen Sun, Haowei Ni, Jixian Ding, Weigen Huang, Jingdong Mao, **Rong-Xi Tan**, Jizhong Zhou, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Uncertainty in Estimating Soil Microbial Derived Carbon Storage. **Proceedings of the National Academy of Sciences (PNAS)**. [[DOI](https://www.pnas.org/doi/10.1073/pnas.2401916121)]
 
 
 <!--
@@ -64,9 +64,11 @@ In: **Proceedings of the 41st International Conference on Machine Learning (ICML
 - *2023.11*: Bailu Scholarship (<1%), Nanjing University. 
 - *2023.07*: Pacemaker to Outstanding students, Nanjing University. 
 - *2023.05*: One Hundred Outstanding Youths of Qixia District, Communist Youth League of Qixia District. 
-- *2022.12*, *2023.12*: Outstanding student, Nanjing University.
-- *2022.12*, *2023.12*: Outstanding volunteer, Nanjing University.
 - *2022.11*: Second Prize Nationwide in [National University Mathematical Modeling Competition (MCM)](http://www.mcm.edu.cn/).
+
+# 📪 Services
+**Conference Reviewer**:
+- ICLR: 2025
 
 # 📖 Educations
 - *2021.09 - now*, Undergradute in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
