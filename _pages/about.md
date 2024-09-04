@@ -47,7 +47,7 @@ In: **Proceedings of the 41st International Conference on Machine Learning (ICML
 
 ## 📚 Journal
 
-1. Han Hu\*, Chao Qian\*, Ke Xue\*, Rainer Georg Jörgensen, Marco Keiluweit, Chao Liang, Xuefeng Zhu, Ji Chen, Yishen Sun, Haowei Ni, Jixian Ding, Weigen Huang, Jingdong Mao, **Rong-Xi Tan**, Jizhong Zhou, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Uncertainty in Estimating Soil Microbial Derived Carbon Storage. **Proceedings of the National Academy of Sciences (PNAS)**. [[DOI](https://www.pnas.org/doi/10.1073/pnas.2401916121)]
+1. Han Hu\*, Chao Qian\*, Ke Xue\*, Rainer Georg Jörgensen, Marco Keiluweit, Chao Liang, Xuefeng Zhu, Ji Chen, Yishen Sun, Haowei Ni, Jixian Ding, Weigen Huang, Jingdong Mao, **Rong-Xi Tan**, Jizhong Zhou, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Uncertainty in Estimating Soil Microbial Derived Carbon Storage. **Proceedings of the National Academy of Sciences (PNAS)**, 2024, 121(35): e2401916121. [[DOI](https://www.pnas.org/doi/10.1073/pnas.2401916121)]
 
 
 <!--
