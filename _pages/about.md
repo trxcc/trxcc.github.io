@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, this is Rong-Xi Tan. Currently I am a third-year undergraduate student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by Associate Prof. [Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by professor [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
+Hi, this is Rong-Xi Tan. Currently I am a fourth-year undergraduate student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by Associate Prof. [Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by professor [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
 
 My research interest lies in **black-box optimization (BBO) algorithms**, especially in BBO in offline settings (where online evaluation is restricted), and their applications in AI4Science, such as geoscience and soil property analysis. 
 
@@ -27,10 +27,14 @@ I have published more than 100 papers at the top international AI conferences wi
 
 # 🔥 News
 - *2024.05*: &nbsp;🎉🎉 Offline-MOO is accepted by ICML'2024.
-- *2024.04*: &nbsp;🎉🎉 I am awarded as a Merit Student of Jiangsu Province.
+- *2024.04*: &nbsp;🎉🎉 I was awarded as a Merit Student of Jiangsu Province.
 - *2024.04*: &nbsp;🎉🎉 Hi, I finally create my personal page.
 
 # 📝 Publications 
+
+## 📤 Preprint
+
+1. Rong-Xi Tan, Ke Xue, Shen-Huan Lyu, Haopu Shang, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Offline Model-Based Optimization by Learning to Rank. arXiv: 2410.11502. [[Preprint](http://export.arxiv.org/abs/2410.11502)]
 
 ## 📈 Conference
 
@@ -41,13 +45,13 @@ I have published more than 100 papers at the top international AI conferences wi
 
 Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian.
 
-In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp.55595-55624. [[PDF](https://arxiv.org/pdf/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
+In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp.55595-55624. [[Paper](https://arxiv.org/pdf/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
 </div>
 </div>
 
 ## 📚 Journal
 
-1. Han Hu\*, Chao Qian\*, Ke Xue\*, Rainer Georg Jörgensen, Marco Keiluweit, Chao Liang, Xuefeng Zhu, Ji Chen, Yishen Sun, Haowei Ni, Jixian Ding, Weigen Huang, Jingdong Mao, **Rong-Xi Tan**, Jizhong Zhou, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Uncertainty in Estimating Soil Microbial Derived Carbon Storage. **Proceedings of the National Academy of Sciences (PNAS)**, 2024, 121(35): e2401916121. [[DOI](https://www.pnas.org/doi/10.1073/pnas.2401916121)]
+1. Han Hu\*, Chao Qian\*, Ke Xue\*, Rainer Georg Jörgensen, Marco Keiluweit, Chao Liang, Xuefeng Zhu, Ji Chen, Yishen Sun, Haowei Ni, Jixian Ding, Weigen Huang, Jingdong Mao, **Rong-Xi Tan**, Jizhong Zhou, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Uncertainty in Estimating Soil Microbial Derived Carbon Storage. **Proceedings of the National Academy of Sciences (PNAS)**, 2024, 121(35): e2401916121. [[Paper](https://www.pnas.org/doi/10.1073/pnas.2401916121)]
 
 
 <!--
@@ -60,6 +64,7 @@ In: **Proceedings of the 41st International Conference on Machine Learning (ICML
 -->
 
 # 🎖 Honors and Awards
+- *2024.09*: National Science Foundation for Undergraduates (国家自然科学基金本科生项目).
 - *2024.04*: Merit Student of Jiangsu Province.
 - *2023.11*: Bailu Scholarship (<1%), Nanjing University. 
 - *2023.07*: Pacemaker to Outstanding students, Nanjing University. 
