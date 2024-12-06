@@ -46,7 +46,7 @@ I have published more than 100 papers at the top international AI conferences wi
 
 Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian.
 
-In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp.55595-55624. [[Paper](https://arxiv.org/pdf/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
+In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp. 55595-55624. [[Paper](https://arxiv.org/pdf/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
 </div>
 </div>
 
@@ -68,7 +68,7 @@ In: **Proceedings of the 41st International Conference on Machine Learning (ICML
 - *2024.12*: Nanjing University Top-Grade Scholarship (the highest honor in Nanjing University).
 - *2024.09*: National Science Foundation for Undergraduates (国家自然科学基金本科生项目).
 - *2024.04*: Merit Student of Jiangsu Province.
-- *2023.11*: Bailu Scholarship (<1%), Nanjing University. 
+- *2023.11*: Bailu Scholarship, Nanjing University. 
 - *2023.07*: Pacemaker to Outstanding students, Nanjing University. 
 - *2023.05*: One Hundred Outstanding Youths of Qixia District, Communist Youth League of Qixia District. 
 - *2022.11*: Second Prize Nationwide in [National University Mathematical Modeling Competition (MCM)](http://www.mcm.edu.cn/).
