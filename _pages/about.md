@@ -38,7 +38,7 @@ I have published more than 100 papers at the top international AI conferences wi
 
 ## 📤 Preprint
 
-1. Rong-Xi Tan, Ke Xue, Shen-Huan Lyu, Haopu Shang, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Offline Model-Based Optimization by Learning to Rank. arXiv: 2410.11502. [[Preprint](http://arxiv.org/abs/2410.11502)]
+1. *Rong-Xi Tan*, Ke Xue, Shen-Huan Lyu, Haopu Shang, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Offline Model-Based Optimization by Learning to Rank. arXiv: 2410.11502. [[Preprint](http://arxiv.org/abs/2410.11502)] [[Code](https://github.com/trxcc/Offline-RaM)]
 
 ## 📈 Conference
 
@@ -81,7 +81,7 @@ In: **Proceedings of the 41st International Conference on Machine Learning (ICML
 - ICLR: 2025
 
 # 📖 Educations
-- *2021.09 - now*, Undergradute in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
+- *2021.09 - Present*, Undergradute in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
 - *2018.09 - 2021.06*, Xinhui No.1 Middle School, Guangdong. 
 
 
