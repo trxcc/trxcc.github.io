@@ -28,6 +28,7 @@ I have published more than 100 papers at the top international AI conferences wi
 -->
 
 # 🔥 News
+- *2025.01*: &nbsp;🎉🎉 Offline-RaM is accepted by ICLR'25.
 - *2024.12*: &nbsp;🎉🎉 I obtained Top-Grade Scholarship of Nanjing University.
 - *2024.09*: &nbsp;🎉🎉 I obtained National Science Foundation for Undergraduates.
 - *2024.05*: &nbsp;🎉🎉 Offline-MOO is accepted by ICML'2024.
@@ -38,20 +39,11 @@ I have published more than 100 papers at the top international AI conferences wi
 
 ## 📤 Preprint
 
-1. *Rong-Xi Tan*, Ke Xue, Shen-Huan Lyu, Haopu Shang, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Offline Model-Based Optimization by Learning to Rank. arXiv: 2410.11502. [[Preprint](http://arxiv.org/abs/2410.11502)] [[Code](https://github.com/trxcc/Offline-RaM)]
-
 ## 📈 Conference
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='images/offline-moo.png' alt="sym" width="80%"></div></div>
-<div class='paper-box-text' markdown="1">
+1. **Rong-Xi Tan**, Ke Xue, Shen-Huan Lyu, Haopu Shang, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Offline Model-Based Optimization by Learning to Rank. In: **Proceedings of the 13th International Conference on Learning Representation (ICLR'25)**, Singapore, 2025. [[Paper](http://arxiv.org/abs/2410.11502)] [[Code](https://github.com/trxcc/Offline-RaM)]
 
-**Offline Multi-Objective Optimization**
-
-Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian.
-
-In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp. 55595-55624. [[Paper](https://arxiv.org/pdf/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
-</div>
-</div>
+2. Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian. Offline Multi-Objective Optimization. In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp. 55595-55624. [[Paper](https://arxiv.org/pdf/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
 
 ## 📚 Journal
 
