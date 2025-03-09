@@ -21,8 +21,6 @@ Hi, this is Rong-Xi Tan. Currently I am a senior undergraduate student of [Schoo
 
 My research interest lies in **black-box optimization (BBO) algorithms**, especially in BBO in offline settings (where online evaluation is restricted), and their applications in AI4Science, such as geoscience and soil property analysis. 
 
-<span style="color:red">**My friend, [Jiacheng Chen](https://jc-chen1.github.io/), is currently applying for Ph.D. programs in 2025 fall, who is a collaborator of [Prof. Yisong Yue](http://www.yisongyue.com/) and [Dr. Kaiyu Yang](https://yangky11.github.io/), and a SURF student at Caltech. Feel free to recruit Jiacheng if you're looking for a strong student in AI for mathematical reasoning and theorem proving!**</span>
-
 <!--
 I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 -->
