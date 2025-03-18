@@ -37,7 +37,7 @@ I have published more than 100 papers at the top international AI conferences wi
 
 ## 📤 Preprint
 
-1. **Rong-Xi Tan\***, Ming Chen*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning String Embedding Space. In: [2nd Workshop on Foundation Models in the Wild](https://fm-wild-community.github.io/) at ICLR'25, Singapore, 2025. [[Paper](https://openreview.net/forum?id=rFSmAV0NTt)] [[Code](https://github.com/trxcc/universal-offline-bbo)]
+1. **Rong-Xi Tan\***, Ming Chen*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning String Embedding Space. In: [**2nd Workshop on Foundation Models in the Wild**](https://fm-wild-community.github.io/) **at ICLR'25**, Singapore, 2025. **(Oral presentation)** [[Paper](https://openreview.net/forum?id=rFSmAV0NTt)] [[Code](https://github.com/trxcc/universal-offline-bbo)]
 
 ## 📈 Conference
 
