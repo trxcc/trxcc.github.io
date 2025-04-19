@@ -71,6 +71,7 @@ I have published more than 100 papers at the top international AI conferences wi
 # 📪 Services
 **Conference Reviewer**:
 - ICLR: 2025
+- NeurIPS: 2025
 
 # 📖 Educations
 - *2021.09 - Present*, Undergradute in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
