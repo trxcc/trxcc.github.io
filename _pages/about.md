@@ -19,13 +19,14 @@ redirect_from:
 
 Hi, this is Rong-Xi Tan. Currently I am a senior undergraduate student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by [Prof. Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by [Prof. Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
 
-My research interest lies in **black-box optimization (BBO) algorithms**, especially in BBO in offline settings (where online evaluation is restricted), and their applications in AI4Science, such as geoscience and soil property analysis. 
+My research interest lies in **LLM for numerical regression** and **black-box optimization (BBO) algorithms**, and their applications in AI4Science, such as geoscience and soil property analysis. 
 
 <!--
 I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 -->
 
 # 🔥 News
+- *2025.05*: &nbsp;🎉🎉 UniSO is accepted by ICML'25.
 - *2025.01*: &nbsp;🎉🎉 Offline-RaM is accepted by ICLR'25.
 - *2024.12*: &nbsp;🎉🎉 I obtained Top-Grade Scholarship of Nanjing University.
 - *2024.09*: &nbsp;🎉🎉 I obtained National Science Foundation for Undergraduates.
@@ -37,13 +38,12 @@ I have published more than 100 papers at the top international AI conferences wi
 
 ## 📤 Preprint
 
-1. **Rong-Xi Tan\***, Ming Chen*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning String Embedding Space. In: [**2nd Workshop on Foundation Models in the Wild**](https://fm-wild-community.github.io/) **at ICLR'25**, Singapore, 2025. **(Oral presentation)** [[Paper](https://openreview.net/forum?id=rFSmAV0NTt)] [[Code](https://github.com/trxcc/universal-offline-bbo)]
-
 ## 📈 Conference
 
+1. **Rong-Xi Tan\***, Ming Chen*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning String Embedding Space. In: **Proceedings of the 42nd International Conference on Machine Learning (ICML'25)**, Vancouver, Canada, 2025, to appear. [[Paper](https://openreview.net/forum?id=NOV32X1Rq3)] [[Code](https://github.com/trxcc/universal-offline-bbo)]  
+  Also in: [**2nd Workshop on Foundation Models in the Wild**](https://fm-wild-community.github.io/) **at ICLR'25**, Singapore, 2025. **(Oral presentation)** 
 1. **Rong-Xi Tan**, Ke Xue, Shen-Huan Lyu, Haopu Shang, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Offline Model-Based Optimization by Learning to Rank. In: **Proceedings of the 13th International Conference on Learning Representation (ICLR'25)**, Singapore, 2025. [[Paper](http://arxiv.org/abs/2410.11502)] [[Code](https://github.com/trxcc/Offline-RaM)]
-
-2. Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian. Offline Multi-Objective Optimization. In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp. 55595-55624. [[Paper](https://arxiv.org/abs/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
+1. Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian. Offline Multi-Objective Optimization. In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp. 55595-55624. [[Paper](https://arxiv.org/abs/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
 
 ## 📚 Journal
 
