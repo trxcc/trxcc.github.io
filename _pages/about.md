@@ -40,7 +40,7 @@ I have published more than 100 papers at the top international AI conferences wi
 
 ## 📈 Conference
 
-1. **Rong-Xi Tan\***, Ming Chen*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning String Embedding Space. In: **Proceedings of the 42nd International Conference on Machine Learning (ICML'25)**, Vancouver, Canada, 2025, to appear. [[Paper](https://openreview.net/forum?id=NOV32X1Rq3)] [[Code](https://github.com/trxcc/universal-offline-bbo)]  
+1. **Rong-Xi Tan\***, Ming Chen*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings. In: **Proceedings of the 42nd International Conference on Machine Learning (ICML'25)**, Vancouver, Canada, 2025, to appear. [[Paper](https://openreview.net/forum?id=NOV32X1Rq3)] [[Code](https://github.com/trxcc/universal-offline-bbo)]  
   Also in: [**2nd Workshop on Foundation Models in the Wild**](https://fm-wild-community.github.io/) **at ICLR'25**, Singapore, 2025. **(Oral presentation)** 
 1. **Rong-Xi Tan**, Ke Xue, Shen-Huan Lyu, Haopu Shang, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Offline Model-Based Optimization by Learning to Rank. In: **Proceedings of the 13th International Conference on Learning Representation (ICLR'25)**, Singapore, 2025. [[Paper](http://arxiv.org/abs/2410.11502)] [[Code](https://github.com/trxcc/Offline-RaM)]
 1. Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian. Offline Multi-Objective Optimization. In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp. 55595-55624. [[Paper](https://arxiv.org/abs/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
@@ -60,6 +60,7 @@ I have published more than 100 papers at the top international AI conferences wi
 -->
 
 # 🎖 Honors and Awards
+- *2025.06*: Research results reported by NSFC [[Link](https://www.nsfc.gov.cn/publish/portal0/tab434/info94976.htm)].
 - *2024.12*: Nanjing University Top-Grade Scholarship (the highest honor in Nanjing University).
 - *2024.09*: National Science Foundation for Undergraduates (国家自然科学基金本科生项目).
 - *2024.04*: Merit Student of Jiangsu Province.
