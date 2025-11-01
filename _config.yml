@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Rong-Xi Tan"
-description              : "Undergraduate student of School of Artificial Intelligence in Nanjing University, China."
+description              : "First-year PhD student of School of Artificial Intelligence in Nanjing University, China."
 repository               : "trxcc/trxcc.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -28,7 +28,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=m82W6XUAAAAJ"
-  email            : "rongxitan@smail.nju.edu.cn"
+  email            : "tanrx@lamda.nju.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, this is Rong-Xi Tan. Currently I am a senior undergraduate student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by [Prof. Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by [Prof. Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
+Hi, this is Rong-Xi Tan. Currently I am a first-year PhD student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by [Prof. Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by [Prof. Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
 
-My research interest lies in **LLM for numerical regression** and **black-box optimization (BBO) algorithms**, and their applications in AI4Science, such as geoscience and soil property analysis. 
+My research interest lies in **Text-to-text regression** and **black-box optimization (BBO) algorithms**, and their applications in AI4Science (e.g., geoscience and soil property analysis) and industrial scenarios (e.g., electronic design automation). 
 
 <!--
 I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
@@ -37,10 +37,11 @@ I have published more than 100 papers at the top international AI conferences wi
 # 📝 Publications 
 
 ## 📤 Preprint
+1. Ke Xue\*, Ruo-Tong Chen\*, **Rong-Xi Tan\***, Xi Lin, Yunqi Shi, Siyuan Xu, Mingxuan Yuan, Chao Qian. BBOPlace-Bench: Benchmarking Black-Box Optimization for Chip Placement. arXiv:2510.23472. [[Paper](https://arxiv.org/abs/2510.23472)] [[Code](https://github.com/lamda-bbo/BBOPlace-Bench)]
 
 ## 📈 Conference
 
-1. **Rong-Xi Tan\***, Ming Chen*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings. In: **Proceedings of the 42nd International Conference on Machine Learning (ICML'25)**, Vancouver, Canada, 2025, to appear. [[Paper](https://openreview.net/forum?id=NOV32X1Rq3)] [[Code](https://github.com/trxcc/universal-offline-bbo)]  
+1. **Rong-Xi Tan\***, Ming Chen\*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings. In: **Proceedings of the 42nd International Conference on Machine Learning (ICML'25)**, Vancouver, Canada, 2025, to appear. [[Paper](https://openreview.net/forum?id=NOV32X1Rq3)] [[Code](https://github.com/trxcc/universal-offline-bbo)]  
   Also in: [**2nd Workshop on Foundation Models in the Wild**](https://fm-wild-community.github.io/) **at ICLR'25**, Singapore, 2025. **(Oral presentation)** 
 1. **Rong-Xi Tan**, Ke Xue, Shen-Huan Lyu, Haopu Shang, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Offline Model-Based Optimization by Learning to Rank. In: **Proceedings of the 13th International Conference on Learning Representation (ICLR'25)**, Singapore, 2025. [[Paper](http://arxiv.org/abs/2410.11502)] [[Code](https://github.com/trxcc/Offline-RaM)]
 1. Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian. Offline Multi-Objective Optimization. In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp. 55595-55624. [[Paper](https://arxiv.org/abs/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
@@ -61,7 +62,7 @@ I have published more than 100 papers at the top international AI conferences wi
 
 # 🎖 Honors and Awards
 - *2025.06*: Research results reported by NSFC [[Link](https://www.nsfc.gov.cn/publish/portal0/tab434/info94976.htm)].
-- *2024.12*: Nanjing University Top-Grade Scholarship (the highest honor in Nanjing University).
+- *2024.12*: Nanjing University Top-Grade Scholarship (the highest honor at Nanjing University).
 - *2024.09*: National Science Foundation for Undergraduates (国家自然科学基金本科生项目).
 - *2024.04*: Merit Student of Jiangsu Province.
 - *2023.11*: Bailu Scholarship, Nanjing University. 
@@ -71,13 +72,17 @@ I have published more than 100 papers at the top international AI conferences wi
 
 # 📪 Services
 **Conference Reviewer**:
-- ICLR: 2025
+- ICLR: 2025, 2026
 - NeurIPS: 2025
 
 # 📖 Educations
-- *2021.09 - Present*, Undergradute in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
+- *2025.09 - Present*, PhD student in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
+- *2021.09 - 2025.06*, Undergradute in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
 - *2018.09 - 2021.06*, Xinhui No.1 Middle School, Guangdong. 
 
+
+# 💬 Invited Talks
+- *2025.09*, Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings. @ [LEAD Workshop by SCUT](https://sites.google.com/view/leadworkshop2025), Virtual.
 
 <!--
 
