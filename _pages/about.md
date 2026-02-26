@@ -19,20 +19,18 @@ redirect_from:
 
 Hi, this is Rong-Xi Tan. Currently I am a first-year PhD student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by [Prof. Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by [Prof. Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
 
-My research interest lies in **Text-to-text regression** and **black-box optimization (BBO) algorithms**, and their applications in AI4Science (e.g., geoscience and soil property analysis) and industrial scenarios (e.g., electronic design automation). 
+My research interest lies in **text-to-text regression** and **black-box optimization (BBO) algorithms**, and their applications in AI4Science (e.g., geoscience and soil property analysis) and industrial scenarios (e.g., electronic design automation). 
 
 <!--
 I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 -->
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉🎉 Research results reported by NSFC [[Link](https://www.nsfc.gov.cn/p1/3381/2825/83716.html)].
 - *2025.05*: &nbsp;🎉🎉 UniSO is accepted by ICML'25.
 - *2025.01*: &nbsp;🎉🎉 Offline-RaM is accepted by ICLR'25.
-- *2024.12*: &nbsp;🎉🎉 I obtained Top-Grade Scholarship of Nanjing University.
+- *2024.12*: &nbsp;🎉🎉 I got Top-Grade Scholarship of Nanjing University.
 - *2024.09*: &nbsp;🎉🎉 I obtained National Science Foundation for Undergraduates.
-- *2024.05*: &nbsp;🎉🎉 Offline-MOO is accepted by ICML'2024.
-- *2024.04*: &nbsp;🎉🎉 I was awarded as a Merit Student of Jiangsu Province.
-- *2024.04*: &nbsp;🎉🎉 Hi, I finally create my personal page.
 
 # 📝 Publications 
 
@@ -49,7 +47,9 @@ I have published more than 100 papers at the top international AI conferences wi
 
 ## 📚 Journal
 
+1. Han Hu, Ke Xue, Yishen Sun, Qing Zhu, Hans K. Carlson, Ruiwen Hu, **Rong-Xi Tan**, Chao Qian, Weigen Huang, Jizhong Zhou, Jingdong Mao, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Discrepancy in Quantifying the Temperature Dependence of Global Wetland Methane Emission. **Global Change Biology**, 2026, 32(2): e70748. [[Paper](https://onlinelibrary.wiley.com/doi/10.1111/gcb.70748)]
 1. Han Hu\*, Chao Qian\*, Ke Xue\*, Rainer Georg Jörgensen, Marco Keiluweit, Chao Liang, Xuefeng Zhu, Ji Chen, Yishen Sun, Haowei Ni, Jixian Ding, Weigen Huang, Jingdong Mao, **Rong-Xi Tan**, Jizhong Zhou, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Uncertainty in Estimating Soil Microbial Derived Carbon Storage. **Proceedings of the National Academy of Sciences (PNAS)**, 2024, 121(35): e2401916121. [[Paper](https://www.pnas.org/doi/10.1073/pnas.2401916121)]
+
 
 
 <!--
@@ -62,7 +62,7 @@ I have published more than 100 papers at the top international AI conferences wi
 -->
 
 # 🎖 Honors and Awards
-- *2025.06*: Research results reported by NSFC [[Link](https://www.nsfc.gov.cn/publish/portal0/tab434/info94976.htm)].
+- *2025.06*: Research results reported by NSFC [[Link](https://www.nsfc.gov.cn/p1/3381/2825/83716.html)].
 - *2024.12*: Nanjing University Top-Grade Scholarship (the highest honor at Nanjing University).
 - *2024.09*: National Science Foundation for Undergraduates (国家自然科学基金本科生项目).
 - *2024.04*: Merit Student of Jiangsu Province.
