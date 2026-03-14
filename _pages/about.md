@@ -19,7 +19,7 @@ redirect_from:
 
 Hi, this is Rong-Xi Tan. Currently I am a first-year PhD student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by [Prof. Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by [Prof. Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
 
-My research interest lies in **text-to-text regression** and **black-box optimization (BBO) algorithms**, and their applications in AI4Science (e.g., geoscience and soil property analysis) and industrial scenarios (e.g., electronic design automation). 
+My research interest lies in **black-box optimization (BBO) algorithms**, and their applications in AI4Science (e.g., geoscience and soil property analysis) and industrial scenarios (e.g., electronic design automation). 
 
 <!--
 I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
@@ -27,16 +27,16 @@ I have published more than 100 papers at the top international AI conferences wi
 
 # 🔥 News
 - *2025.06*: &nbsp;🎉🎉 Research results reported by NSFC [[Link](https://www.nsfc.gov.cn/p1/3381/2825/83716.html)].
-- *2025.05*: &nbsp;🎉🎉 UniSO is accepted by ICML'25.
 - *2025.01*: &nbsp;🎉🎉 Offline-RaM is accepted by ICLR'25.
 - *2024.12*: &nbsp;🎉🎉 I got Top-Grade Scholarship of Nanjing University.
-- *2024.09*: &nbsp;🎉🎉 I obtained National Science Foundation for Undergraduates.
+- *2024.09*: &nbsp;🎉🎉 I got National Science Foundation for Undergraduates.
 
 # 📝 Publications 
 
 ## 📤 Preprint
+1. Shen-Huan Lyu, **Rong-Xi Tan**, Ke Xue, Yi-Xiao He, Yu Huang, Qingfu Zhang, Chao Qian. On the Learnability of Offline Model-Based Optimization: A Ranking Perspective. arXiv:2603.04000. [[Paper](https://arxiv.org/abs/2603.04000)]
 1. Ming Chen\*, Sheng Tang\*, **Rong-Xi Tan\***, Ziniu Li, Jiacheng Chen, Ke Xue, Chao Qian. Beyond Token-level Supervision: Unlocking the Potential of Decoding-based Regression via Reinforcement Learning. arXiv:2512.06533. [[Paper](https://arxiv.org/abs/2512.06533)]
-2. Ke Xue\*, Ruo-Tong Chen\*, **Rong-Xi Tan\***, Xi Lin, Yunqi Shi, Siyuan Xu, Mingxuan Yuan, Chao Qian. BBOPlace-Bench: Benchmarking Black-Box Optimization for Chip Placement. arXiv:2510.23472. [[Paper](https://arxiv.org/abs/2510.23472)] [[Code](https://github.com/lamda-bbo/BBOPlace-Bench)]
+1. Ke Xue\*, Ruo-Tong Chen\*, **Rong-Xi Tan\***, Xi Lin, Yunqi Shi, Siyuan Xu, Mingxuan Yuan, Chao Qian. BBOPlace-Bench: Benchmarking Black-Box Optimization for Chip Placement. arXiv:2510.23472. [[Paper](https://arxiv.org/abs/2510.23472)] [[Code](https://github.com/lamda-bbo/BBOPlace-Bench)]
 
 ## 📈 Conference
 
@@ -75,6 +75,7 @@ I have published more than 100 papers at the top international AI conferences wi
 **Conference Reviewer**:
 - ICLR: 2025, 2026
 - NeurIPS: 2025
+- ICML: 2026
 
 # 📖 Educations
 - *2025.09 - Present*, PhD student in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
