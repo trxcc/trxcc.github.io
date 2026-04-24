@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, this is Rong-Xi Tan. Currently I am a first-year PhD student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by [Prof. Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by [Prof. Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/).
+Hi, this is Rong-Xi Tan. Currently I am a first-year PhD student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by [Prof. Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by [Prof. Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/). I am also very fortunate to work close with [Dr. Yafu Li](https://yafuly.github.io/yafuly/).  
 
-My research interest lies in **black-box optimization (BBO) algorithms**, and their applications in AI4Science (e.g., geoscience and soil property analysis) and industrial scenarios (e.g., electronic design automation). 
+My current research interest lies in LLM agents and black-box optimization (BBO), with their applications in AI4Science (e.g., geoscience and soil property analysis) and industrial scenarios (e.g., electronic design automation). 
 
 <!--
 I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
