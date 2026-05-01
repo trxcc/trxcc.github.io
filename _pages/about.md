@@ -35,12 +35,12 @@ I have published more than 100 papers at the top international AI conferences wi
 
 ## 📤 Preprint
 1. Shen-Huan Lyu, **Rong-Xi Tan**, Ke Xue, Yi-Xiao He, Yu Huang, Qingfu Zhang, Chao Qian. On the Learnability of Offline Model-Based Optimization: A Ranking Perspective. arXiv:2603.04000. [[Paper](https://arxiv.org/abs/2603.04000)]
-1. Ming Chen\*, Sheng Tang\*, **Rong-Xi Tan\***, Ziniu Li, Jiacheng Chen, Ke Xue, Chao Qian. Beyond Token-level Supervision: Unlocking the Potential of Decoding-based Regression via Reinforcement Learning. arXiv:2512.06533. [[Paper](https://arxiv.org/abs/2512.06533)]
 1. Ke Xue\*, Ruo-Tong Chen\*, **Rong-Xi Tan\***, Xi Lin, Yunqi Shi, Siyuan Xu, Mingxuan Yuan, Chao Qian. BBOPlace-Bench: Benchmarking Black-Box Optimization for Chip Placement. arXiv:2510.23472. [[Paper](https://arxiv.org/abs/2510.23472)] [[Code](https://github.com/lamda-bbo/BBOPlace-Bench)]
 
 ## 📈 Conference
 
-1. **Rong-Xi Tan\***, Ming Chen\*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings. In: **Proceedings of the 42nd International Conference on Machine Learning (ICML'25)**, Vancouver, Canada, 2025, to appear. [[Paper](https://openreview.net/forum?id=NOV32X1Rq3)] [[Code](https://github.com/trxcc/universal-offline-bbo)]  
+1. Ming Chen\*, Sheng Tang\*, **Rong-Xi Tan\***, Ziniu Li, Jiacheng Chen, Ke Xue, Chao Qian. Beyond Token-level Supervision: Unlocking the Potential of Decoding-based Regression via Reinforcement Learning. In: **Proceedings of the 43rd International Conference on Machine Learning (ICML'26)**, Seoul, Korea, 2026. [[arXiv](https://arxiv.org/abs/2512.06533)]
+1. **Rong-Xi Tan\***, Ming Chen\*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings. In: **Proceedings of the 42nd International Conference on Machine Learning (ICML'25)**, Vancouver, Canada, 2025. [[Paper](https://openreview.net/forum?id=NOV32X1Rq3)] [[Code](https://github.com/trxcc/universal-offline-bbo)]  
   Also in: [**2nd Workshop on Foundation Models in the Wild**](https://fm-wild-community.github.io/) **at ICLR'25**, Singapore, 2025. **(Oral presentation)** 
 1. **Rong-Xi Tan**, Ke Xue, Shen-Huan Lyu, Haopu Shang, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Offline Model-Based Optimization by Learning to Rank. In: **Proceedings of the 13th International Conference on Learning Representation (ICLR'25)**, Singapore, 2025. [[Paper](http://arxiv.org/abs/2410.11502)] [[Code](https://github.com/trxcc/Offline-RaM)]
 1. Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian. Offline Multi-Objective Optimization. In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp. 55595-55624. [[Paper](https://arxiv.org/abs/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
