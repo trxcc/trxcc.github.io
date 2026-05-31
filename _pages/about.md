@@ -39,7 +39,7 @@ I have published more than 100 papers at the top international AI conferences wi
 
 ## 📈 Conference
 
-1. Ming Chen\*, Sheng Tang\*, **Rong-Xi Tan\***, Ziniu Li, Jiacheng Chen, Ke Xue, Chao Qian. Beyond Token-level Supervision: Unlocking the Potential of Decoding-based Regression via Reinforcement Learning. In: **Proceedings of the 43rd International Conference on Machine Learning (ICML'26)**, Seoul, Korea, 2026. [[arXiv](https://arxiv.org/abs/2512.06533)]
+1. Ming Chen\*, Sheng Tang\*, **Rong-Xi Tan\***, Ziniu Li, Jiacheng Chen, Ke Xue, Chao Qian. Beyond Token-level Supervision: Unlocking the Potential of Decoding-based Regression via Reinforcement Learning. In: **Proceedings of the 43rd International Conference on Machine Learning (ICML'26)**, Seoul, South Korea, 2026. [[arXiv](https://arxiv.org/abs/2512.06533)]
 1. **Rong-Xi Tan\***, Ming Chen\*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings. In: **Proceedings of the 42nd International Conference on Machine Learning (ICML'25)**, Vancouver, Canada, 2025. [[Paper](https://openreview.net/forum?id=NOV32X1Rq3)] [[Code](https://github.com/trxcc/universal-offline-bbo)]  
   Also in: [**2nd Workshop on Foundation Models in the Wild**](https://fm-wild-community.github.io/) **at ICLR'25**, Singapore, 2025. **(Oral presentation)** 
 1. **Rong-Xi Tan**, Ke Xue, Shen-Huan Lyu, Haopu Shang, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Offline Model-Based Optimization by Learning to Rank. In: **Proceedings of the 13th International Conference on Learning Representation (ICLR'25)**, Singapore, 2025. [[Paper](http://arxiv.org/abs/2410.11502)] [[Code](https://github.com/trxcc/Offline-RaM)]
@@ -75,7 +75,7 @@ I have published more than 100 papers at the top international AI conferences wi
 **Conference Reviewer**:
 - ICLR: 2025, 2026
 - NeurIPS: 2025
-- ICML: 2026
+- ICML: 2026 (Gold Reviewer)
 
 # 📖 Educations
 - *2025.09 - Present*, PhD student in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
