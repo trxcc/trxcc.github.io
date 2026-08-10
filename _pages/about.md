@@ -26,6 +26,7 @@ I have published more than 100 papers at the top international AI conferences wi
 -->
 
 # 🔥 News
+- *2026.04*: &nbsp;🎉🎉 GenRe² is accepted by ICML'26.
 - *2025.06*: &nbsp;🎉🎉 Research results reported by NSFC [[Link](https://www.nsfc.gov.cn/p1/3381/2825/83716.html)].
 - *2025.01*: &nbsp;🎉🎉 Offline-RaM is accepted by ICLR'25.
 - *2024.12*: &nbsp;🎉🎉 I got Top-Grade Scholarship of Nanjing University.
@@ -33,20 +34,23 @@ I have published more than 100 papers at the top international AI conferences wi
 
 # 📝 Publications 
 
+\* indicates equal contribution.
+
 ## 📤 Preprint
 1. Shen-Huan Lyu, **Rong-Xi Tan**, Ke Xue, Yi-Xiao He, Yu Huang, Qingfu Zhang, Chao Qian. On the Learnability of Offline Model-Based Optimization: A Ranking Perspective. arXiv:2603.04000. [[Paper](https://arxiv.org/abs/2603.04000)]
-1. Ke Xue\*, Ruo-Tong Chen\*, **Rong-Xi Tan\***, Xi Lin, Yunqi Shi, Siyuan Xu, Mingxuan Yuan, Chao Qian. BBOPlace-Bench: Benchmarking Black-Box Optimization for Chip Placement. arXiv:2510.23472. [[Paper](https://arxiv.org/abs/2510.23472)] [[Code](https://github.com/lamda-bbo/BBOPlace-Bench)]
 
 ## 📈 Conference
 
-1. Ming Chen\*, Sheng Tang\*, **Rong-Xi Tan\***, Ziniu Li, Jiacheng Chen, Ke Xue, Chao Qian. Beyond Token-level Supervision: Unlocking the Potential of Decoding-based Regression via Reinforcement Learning. In: **Proceedings of the 43rd International Conference on Machine Learning (ICML'26)**, Seoul, South Korea, 2026. [[arXiv](https://arxiv.org/abs/2512.06533)]
-1. **Rong-Xi Tan\***, Ming Chen\*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings. In: **Proceedings of the 42nd International Conference on Machine Learning (ICML'25)**, Vancouver, Canada, 2025. [[Paper](https://openreview.net/forum?id=NOV32X1Rq3)] [[Code](https://github.com/trxcc/universal-offline-bbo)]  
+1. Ming Chen\*, Sheng Tang\*, **Rong-Xi Tan\***, Ziniu Li, Jiacheng Chen, Ke Xue, Chao Qian. Beyond Token-level Supervision: Unlocking the Potential of Decoding-based Regression via Reinforcement Learning. In: **Proceedings of the 43rd International Conference on Machine Learning (ICML'26)**, Seoul, South Korea, 2026. [[Paper](https://openreview.net/forum?id=ul2qlPcb5Y)] [[Code](https://github.com/lamda-bbo/GenRe2)]
+1. **Rong-Xi Tan\***, Ming Chen\*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings. In: **Proceedings of the 42nd International Conference on Machine Learning (ICML'25)**, Vancouver, Canada, 2025, pp. 58499-58544. [[Paper](https://openreview.net/forum?id=NOV32X1Rq3)] [[Code](https://github.com/trxcc/universal-offline-bbo)]<br>
   Also in: [**2nd Workshop on Foundation Models in the Wild**](https://fm-wild-community.github.io/) **at ICLR'25**, Singapore, 2025. **(Oral presentation)** 
 1. **Rong-Xi Tan**, Ke Xue, Shen-Huan Lyu, Haopu Shang, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Offline Model-Based Optimization by Learning to Rank. In: **Proceedings of the 13th International Conference on Learning Representation (ICLR'25)**, Singapore, 2025. [[Paper](http://arxiv.org/abs/2410.11502)] [[Code](https://github.com/trxcc/Offline-RaM)]
 1. Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian. Offline Multi-Objective Optimization. In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp. 55595-55624. [[Paper](https://arxiv.org/abs/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
 
 ## 📚 Journal
 
+1. Yishen Sun\*, Han Hu\*, **Rong-Xi Tan\***, Julian Helfenstein, Richard W. McDowell, Baojing Gu, Haowei Ni, Weigen Huang, Jixian Ding, Ke Xue, Chao Qian, Jizhong Zhou, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Global Patterns and Feasible Improvement Potential of Phosphorus Use Efficiency in Cereal Croplands. **Nature Food**, 2026, to appear.
+1. Ke Xue\*, Ruo-Tong Chen\*, **Rong-Xi Tan\***, Xi Lin, Yunqi Shi, Siyuan Xu, Mingxuan Yuan, and Chao Qian. BBOPlace-Bench: Benchmarking Black-Box Optimization for Chip Placement. **IEEE Transactions on Evolutionary Computation**, in press. [[Paper](https://arxiv.org/abs/2510.23472)] [[Code](https://github.com/lamda-bbo/BBOPlace-Bench)]
 1. Han Hu, Ke Xue, Yishen Sun, Qing Zhu, Hans K. Carlson, Ruiwen Hu, **Rong-Xi Tan**, Chao Qian, Weigen Huang, Jizhong Zhou, Jingdong Mao, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Discrepancy in Quantifying the Temperature Dependence of Global Wetland Methane Emission. **Global Change Biology**, 2026, 32(2): e70748. [[Paper](https://onlinelibrary.wiley.com/doi/10.1111/gcb.70748)]
 1. Han Hu\*, Chao Qian\*, Ke Xue\*, Rainer Georg Jörgensen, Marco Keiluweit, Chao Liang, Xuefeng Zhu, Ji Chen, Yishen Sun, Haowei Ni, Jixian Ding, Weigen Huang, Jingdong Mao, **Rong-Xi Tan**, Jizhong Zhou, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Uncertainty in Estimating Soil Microbial Derived Carbon Storage. **Proceedings of the National Academy of Sciences (PNAS)**, 2024, 121(35): e2401916121. [[Paper](https://www.pnas.org/doi/10.1073/pnas.2401916121)]
 
@@ -72,10 +76,15 @@ I have published more than 100 papers at the top international AI conferences wi
 - *2022.11*: Second Prize Nationwide in [National University Mathematical Modeling Competition (MCM)](http://www.mcm.edu.cn/).
 
 # 📪 Services
+**Journal Reviewer**:
+- TMLR
+- IEEE Transactions on Evolutionary Computation
+
 **Conference Reviewer**:
 - ICLR: 2025, 2026
 - NeurIPS: 2025
 - ICML: 2026 (Gold Reviewer)
+- AAAI: 2027
 
 # 📖 Educations
 - *2025.09 - Present*, PhD student in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
