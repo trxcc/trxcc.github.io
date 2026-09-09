@@ -38,6 +38,7 @@ I have published more than 100 papers at the top international AI conferences wi
 \* indicates equal contribution.
 
 ## 📤 Preprint
+1. Chao Qian, Chen-Guang Wang, **Rong-Xi Tan**, Ke Xue. Rethinking Learnability in Offline Data-driven Optimization. arXiv:2609.01493. [[Paper](https://arxiv.org/abs/2609.01493)]
 1. Shen-Huan Lyu, **Rong-Xi Tan**, Ke Xue, Yi-Xiao He, Yu Huang, Qingfu Zhang, Chao Qian. On the Learnability of Offline Model-Based Optimization: A Ranking Perspective. arXiv:2603.04000. [[Paper](https://arxiv.org/abs/2603.04000)]
 
 ## 📈 Conference
