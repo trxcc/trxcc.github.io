@@ -26,6 +26,7 @@ I have published more than 100 papers at the top international AI conferences wi
 -->
 
 # 🔥 News
+- *2026.09*: &nbsp;🎉🎉 One co-first-authored paper on AI for Science has been accepted by Nature Food.
 - *2026.04*: &nbsp;🎉🎉 GenRe² is accepted by ICML'26.
 - *2025.06*: &nbsp;🎉🎉 Research results reported by NSFC [[Link](https://www.nsfc.gov.cn/p1/3381/2825/83716.html)].
 - *2025.01*: &nbsp;🎉🎉 Offline-RaM is accepted by ICLR'25.
@@ -49,7 +50,7 @@ I have published more than 100 papers at the top international AI conferences wi
 
 ## 📚 Journal
 
-1. Yishen Sun\*, Han Hu\*, **Rong-Xi Tan\***, Julian Helfenstein, Richard W. McDowell, Baojing Gu, Haowei Ni, Weigen Huang, Jixian Ding, Ke Xue, Chao Qian, Jizhong Zhou, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Global Patterns and Feasible Improvement Potential of Phosphorus Use Efficiency in Cereal Croplands. **Nature Food**, 2026, to appear.
+1. Yishen Sun\*, Han Hu\*, **Rong-Xi Tan\***, Julian Helfenstein, Richard W. McDowell, Baojing Gu, Haowei Ni, Weigen Huang, Jixian Ding, Ke Xue, Chao Qian, Jizhong Zhou, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Global patterns and feasible improvement potential of phosphorus use efficiency in cereal croplands. **Nature Food**, 2026. [[Paper](https://www.nature.com/articles/s43016-026-01419-9)]
 1. Ke Xue\*, Ruo-Tong Chen\*, **Rong-Xi Tan\***, Xi Lin, Yunqi Shi, Siyuan Xu, Mingxuan Yuan, and Chao Qian. BBOPlace-Bench: Benchmarking Black-Box Optimization for Chip Placement. **IEEE Transactions on Evolutionary Computation**, in press. [[Paper](https://arxiv.org/abs/2510.23472)] [[Code](https://github.com/lamda-bbo/BBOPlace-Bench)]
 1. Han Hu, Ke Xue, Yishen Sun, Qing Zhu, Hans K. Carlson, Ruiwen Hu, **Rong-Xi Tan**, Chao Qian, Weigen Huang, Jizhong Zhou, Jingdong Mao, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Discrepancy in Quantifying the Temperature Dependence of Global Wetland Methane Emission. **Global Change Biology**, 2026, 32(2): e70748. [[Paper](https://onlinelibrary.wiley.com/doi/10.1111/gcb.70748)]
 1. Han Hu\*, Chao Qian\*, Ke Xue\*, Rainer Georg Jörgensen, Marco Keiluweit, Chao Liang, Xuefeng Zhu, Ji Chen, Yishen Sun, Haowei Ni, Jixian Ding, Weigen Huang, Jingdong Mao, **Rong-Xi Tan**, Jizhong Zhou, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Uncertainty in Estimating Soil Microbial Derived Carbon Storage. **Proceedings of the National Academy of Sciences (PNAS)**, 2024, 121(35): e2401916121. [[Paper](https://www.pnas.org/doi/10.1073/pnas.2401916121)]
