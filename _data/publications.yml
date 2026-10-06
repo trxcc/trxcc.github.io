@@ -1,0 +1,202 @@
+# Bibliographic fields are rendered by _includes/academic-publication.html.
+# Preserve publisher title capitalization, spell out authors, and mark the
+# first equal_contributors authors with *. Never use placeholder page ranges.
+# Sources and figure provenance: docs/publications-sources.md (checked 2026-10-06).
+- id: phosphorus-efficiency
+  title: "Global patterns and feasible improvement potential of phosphorus use efficiency in cereal croplands"
+  authors: ["Yishen Sun", "Han Hu", "Rong-Xi Tan", "Julian Helfenstein", "Richard W. McDowell", "Baojing Gu", "Haowei Ni", "Weigen Huang", "Jixian Ding", "Ke Xue", "Chao Qian", "Jizhong Zhou", "Zhi-Hua Zhou", "Jiabao Zhang", "Yuting Liang"]
+  equal_contributors: 3
+  type: journal
+  venue: "Nature Food"
+  year: 2026
+  volume: "7"
+  issue: "9"
+  pages: "869–877"
+  featured: true
+  topic: "AI for Science"
+  image: "/images/publications/phosphorus-efficiency.png"
+  image_alt: "Maps of phosphorus use efficiency for maize, rice and wheat, and the relative importance of its drivers."
+  image_width: 1200
+  image_height: 680
+  figure_url: "https://www.nature.com/articles/s43016-026-01419-9/figures/1"
+  links:
+    - label: Paper
+      url: "https://www.nature.com/articles/s43016-026-01419-9"
+
+- id: genre2
+  title: "Beyond Token-level Supervision: Unlocking the Potential of Decoding-based Regression via Reinforcement Learning"
+  authors: ["Ming Chen", "Sheng Tang", "Rong-Xi Tan", "Ziniu Li", "Jiacheng Chen", "Ke Xue", "Chao Qian"]
+  equal_contributors: 3
+  type: conference
+  venue: "Proceedings of the 43rd International Conference on Machine Learning"
+  acronym: ICML
+  year: 2026
+  series: PMLR
+  volume: "306"
+  pages: "16875–16909"
+  featured: true
+  topic: "Language models · GenRe²"
+  image: "/images/publications/genre2.png"
+  image_alt: "GenRe² contrasts token-level losses with a sequence-level reinforcement learning reward for numerical regression."
+  image_width: 732
+  image_height: 404
+  figure_url: "https://arxiv.org/pdf/2512.06533#page=4"
+  links:
+    - label: Paper
+      url: "https://proceedings.mlr.press/v306/chen26ec.html"
+    - label: OpenReview
+      url: "https://openreview.net/forum?id=ul2qlPcb5Y"
+    - label: Code
+      url: "https://github.com/lamda-bbo/GenRe2"
+
+- id: bboplace-bench
+  title: "BBOPlace-Bench: Benchmarking Black-Box Optimization for Chip Placement"
+  authors: ["Ke Xue", "Ruo-Tong Chen", "Rong-Xi Tan", "Xi Lin", "Yunqi Shi", "Siyuan Xu", "Mingxuan Yuan", "Chao Qian"]
+  equal_contributors: 3
+  type: journal
+  venue: "IEEE Transactions on Evolutionary Computation"
+  year: 2026
+  status: "in press"
+  featured: true
+  topic: "Electronic design automation · BBOPlace-Bench"
+  image: "/images/publications/bboplace-bench.png"
+  image_alt: "BBOPlace-Bench connects problem formulations, black-box optimizers and chip-layout evaluation in a modular benchmark."
+  image_width: 1022
+  image_height: 439
+  figure_url: "https://arxiv.org/pdf/2510.23472#page=2"
+  links:
+    - label: Paper
+      url: "https://ieeexplore.ieee.org/document/11605958/"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2510.23472"
+    - label: Code
+      url: "https://github.com/lamda-bbo/BBOPlace-Bench"
+
+- id: universal-bbo
+  title: "Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings"
+  authors: ["Rong-Xi Tan", "Ming Chen", "Ke Xue", "Yao Wang", "Yaoyuan Wang", "Sheng Fu", "Chao Qian"]
+  equal_contributors: 2
+  type: conference
+  venue: "Proceedings of the 42nd International Conference on Machine Learning"
+  acronym: ICML
+  year: 2025
+  series: PMLR
+  volume: "267"
+  pages: "58499–58544"
+  featured: true
+  topic: "Black-box optimization · UniSO"
+  image: "/images/publications/universal-bbo.png"
+  image_alt: "UniSO converts heterogeneous optimization tasks to strings, trains a universal regressor, and searches with a black-box optimizer."
+  image_width: 722
+  image_height: 360
+  figure_url: "https://arxiv.org/pdf/2506.07109#page=3"
+  notes:
+    - "**Oral presentation**, [Foundation Models in the Wild Workshop at ICLR 2025](https://fm-wild-community.github.io/)."
+    - "Also featured in [GECCO 2026 Companion, Hot off the Press](https://dl.acm.org/doi/10.1145/3795101.3814642), pp. 85–86."
+  links:
+    - label: Paper
+      url: "https://proceedings.mlr.press/v267/tan25b.html"
+    - label: OpenReview
+      url: "https://openreview.net/forum?id=NOV32X1Rq3"
+    - label: Code
+      url: "https://github.com/lamda-bbo/universal-offline-bbo"
+
+- id: rethinking-learnability
+  title: "Rethinking Learnability in Offline Data-driven Optimization"
+  authors: ["Chao Qian", "Chen-Guang Wang", "Rong-Xi Tan", "Ke Xue"]
+  type: preprint
+  venue: "arXiv preprint"
+  arxiv: "2609.01493"
+  year: 2026
+  featured: false
+  links:
+    - label: Paper
+      url: "https://arxiv.org/abs/2609.01493"
+
+- id: learnability-ranking
+  title: "On the Learnability of Offline Model-Based Optimization: A Ranking Perspective"
+  authors: ["Shen-Huan Lyu", "Rong-Xi Tan", "Ke Xue", "Yi-Xiao He", "Yu Huang", "Qingfu Zhang", "Chao Qian"]
+  type: preprint
+  venue: "arXiv preprint"
+  arxiv: "2603.04000"
+  year: 2026
+  featured: false
+  links:
+    - label: Paper
+      url: "https://arxiv.org/abs/2603.04000"
+
+- id: wetland-methane
+  title: "Reducing the Discrepancy in Quantifying the Temperature Dependence of Global Wetland Methane Emission"
+  authors: ["Han Hu", "Ke Xue", "Yishen Sun", "Qing Zhu", "Hans K. Carlson", "Ruiwen Hu", "Rong-Xi Tan", "Chao Qian", "Weigen Huang", "Jizhong Zhou", "Jingdong Mao", "Thomas W. Crowther", "Zhi-Hua Zhou", "Jiabao Zhang", "Yuting Liang"]
+  type: journal
+  venue: "Global Change Biology"
+  year: 2026
+  volume: "32"
+  issue: "2"
+  article_number: "e70748"
+  featured: false
+  links:
+    - label: Paper
+      url: "https://onlinelibrary.wiley.com/doi/10.1111/gcb.70748"
+
+- id: offline-ram
+  title: "Offline Model-Based Optimization by Learning to Rank"
+  authors: ["Rong-Xi Tan", "Ke Xue", "Shen-Huan Lyu", "Haopu Shang", "Yao Wang", "Yaoyuan Wang", "Sheng Fu", "Chao Qian"]
+  type: conference
+  venue: "Proceedings of the 13th International Conference on Learning Representations"
+  acronym: ICLR
+  year: 2025
+  featured: true
+  topic: "Black-box optimization · Offline-RaM"
+  image: "/images/publications/offline-ram.png"
+  image_alt: "Offline-RaM compares regression-based and order-preserving surrogate models for finding high-quality designs."
+  image_width: 876
+  image_height: 354
+  figure_url: "https://arxiv.org/pdf/2410.11502#page=2"
+  links:
+    - label: Paper
+      url: "https://openreview.net/forum?id=sb1HgVDLjN"
+    - label: arXiv
+      url: "https://arxiv.org/abs/2410.11502"
+    - label: Code
+      url: "https://github.com/lamda-bbo/Offline-RaM"
+
+- id: offline-moo
+  title: "Offline Multi-Objective Optimization"
+  authors: ["Ke Xue", "Rong-Xi Tan", "Xiaobin Huang", "Chao Qian"]
+  equal_contributors: 2
+  type: conference
+  venue: "Proceedings of the 41st International Conference on Machine Learning"
+  acronym: ICML
+  year: 2024
+  series: PMLR
+  volume: "235"
+  pages: "55595–55624"
+  featured: true
+  topic: "Multi-objective optimization"
+  image: "/images/publications/offline-moo.png"
+  image_alt: "Offline MOO benchmark task families: synthetic functions, neural architecture search, reinforcement learning, combinatorial optimization, scientific design and real-world problems."
+  image_width: 570
+  image_height: 498
+  figure_url: "https://arxiv.org/pdf/2406.03722#page=2"
+  links:
+    - label: Paper
+      url: "https://proceedings.mlr.press/v235/xue24b.html"
+    - label: Code
+      url: "https://github.com/lamda-bbo/offline-moo"
+
+- id: soil-carbon
+  title: "Reducing the uncertainty in estimating soil microbial-derived carbon storage"
+  authors: ["Han Hu", "Chao Qian", "Ke Xue", "Rainer Georg Jörgensen", "Marco Keiluweit", "Chao Liang", "Xuefeng Zhu", "Ji Chen", "Yishen Sun", "Haowei Ni", "Jixian Ding", "Weigen Huang", "Jingdong Mao", "Rong-Xi Tan", "Jizhong Zhou", "Thomas W. Crowther", "Zhi-Hua Zhou", "Jiabao Zhang", "Yuting Liang"]
+  equal_contributors: 3
+  type: journal
+  venue: "Proceedings of the National Academy of Sciences"
+  acronym: PNAS
+  year: 2024
+  volume: "121"
+  issue: "35"
+  article_number: "e2401916121"
+  featured: false
+  links:
+    - label: Paper
+      url: "https://www.pnas.org/doi/10.1073/pnas.2401916121"

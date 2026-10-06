@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Rong-Xi Tan"
-description              : "First-year PhD student of School of Artificial Intelligence in Nanjing University, China."
+description              : "PhD student at the School of Artificial Intelligence, Nanjing University."
 repository               : "trxcc/trxcc.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Rong-Xi Tan"
-  avatar           : "images/trx.png"
+  avatar           : "images/trx-graduation.jpg"
   bio              : "Nanjing University"
   location         : "Nanjing, China"
   employer         :
@@ -38,7 +38,7 @@ author:
   facebook         :
   foursquare       :
   github           : "trxcc"
-  gitee            : "rongxitan"
+  gitee            :
   google_plus      :
   keybase          :
   instagram        :
@@ -54,7 +54,7 @@ author:
   tumblr           :
   twitter          : rongxitan1
   vine             :
-  weibo            : u/6571527221
+  weibo            :
   xing             :
   youtube          :
   wikipedia        :

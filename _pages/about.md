@@ -1,115 +1,162 @@
 ---
+layout: academic
 permalink: /
 title: ""
 excerpt: ""
-author_profile: true
-redirect_from: 
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<header class="profile" id="about-me">
+  <div class="profile-heading">
+    <h1>Rong-Xi Tan <span lang="zh-Hans">谭荣熙</span></h1>
+    <p class="affiliation">PhD Student · Nanjing University</p>
+  </div>
+  <div class="profile-bio">
+    <p>I am a PhD student at the <a href="https://ai.nju.edu.cn">School of Artificial Intelligence</a>,
+      <a href="https://www.nju.edu.cn/">Nanjing University</a>, advised by
+      <a href="https://www.lamda.nju.edu.cn/qianc/">Prof. Chao Qian</a>. I am a member of the
+      <a href="https://www.lamda.nju.edu.cn/">LAMDA Group</a>, led by
+      <a href="https://cs.nju.edu.cn/zhouzh/">Prof. Zhi-Hua Zhou</a>, and am fortunate to also work closely with
+      <a href="https://yafuly.github.io/yafuly/">Dr. Yafu Li</a>.</p>
+    <p>My research focuses on <strong>LLM agents</strong> and <strong>black-box optimization</strong>,
+      with applications in AI for Science (geoscience and soil property analysis) and
+      electronic design automation.</p>
+    <div class="contact">
+      <a class="email" href="mailto:tanrx@lamda.nju.edu.cn">tanrx@lamda.nju.edu.cn</a>
+      <div class="social-links" aria-label="Other profiles">
+        <a href="https://scholar.google.com/citations?user=m82W6XUAAAAJ">Google Scholar</a>
+        <span aria-hidden="true">/</span>
+        <a href="https://github.com/trxcc">GitHub</a>
+        <span aria-hidden="true">/</span>
+        <a href="https://twitter.com/rongxitan1">Twitter</a>
+      </div>
+    </div>
+  </div>
+  <img class="portrait" src="{{ site.author.avatar | relative_url }}" alt="Rong-Xi Tan at graduation" width="1280" height="1920">
+</header>
 
-<span class='anchor' id='about-me'></span>
+<section id="news" class="news-section" aria-labelledby="news-heading">
+  <span id="-news" class="legacy-anchor" aria-hidden="true"></span>
+  <div class="news-label"><h2 id="news-heading">News</h2></div>
+  <div class="news-content">
+  <ul class="dated-list news-list">
+    <li><time datetime="2026-09">Sep 2026</time><span>A co-first-authored paper on AI for Science was accepted by <a href="https://www.nature.com/articles/s43016-026-01419-9">Nature Food</a>.</span></li>
+    <li><time datetime="2026-04">Apr 2026</time><span><a href="https://openreview.net/forum?id=ul2qlPcb5Y">GenRe<sup>2</sup></a> was accepted by <strong>ICML 2026</strong>.</span></li>
+    <li><time datetime="2025-06">Jun 2025</time><span>Our research results were <a href="https://www.nsfc.gov.cn/p1/3381/2825/83716.html">reported by NSFC</a>.</span></li>
+    <li><time datetime="2025-01">Jan 2025</time><span><a href="https://arxiv.org/abs/2410.11502">Offline-RaM</a> was accepted by <strong>ICLR 2025</strong>.</span></li>
+  </ul>
+  <details class="earlier-news">
+    <summary>Earlier news</summary>
+    <ul class="dated-list news-list">
+      <li><time datetime="2024-12">Dec 2024</time><span>Received the Nanjing University Top-Grade Scholarship.</span></li>
+      <li><time datetime="2024-09">Sep 2024</time><span>Received the National Science Foundation for Undergraduates.</span></li>
+    </ul>
+  </details>
+  </div>
+</section>
 
-Hi, this is Rong-Xi Tan. Currently I am a first-year PhD student of [School of Artificial Intelligence](https://ai.nju.edu.cn) in [Nanjing University](https://www.nju.edu.cn/) advised by [Prof. Chao Qian](https://www.lamda.nju.edu.cn/qianc/) and a member of [LAMDA Group](https://www.lamda.nju.edu.cn/), led by [Prof. Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/). I am also very fortunate to work close with [Dr. Yafu Li](https://yafuly.github.io/yafuly/).  
+<section id="publications" aria-labelledby="publications-heading">
+  <span id="-publications" class="legacy-anchor" aria-hidden="true"></span>
+  <div class="section-heading">
+    <h2 id="publications-heading">Publications</h2>
+    <div class="publication-nav"><span class="contribution-note">* Equal contribution</span><a href="#more-publications">More papers ↓</a></div>
+  </div>
+  <h3 class="publication-subheading">Selected work</h3>
+  {% assign selected_papers = site.data.publications | where: "featured", true %}
+  <ol class="publications selected-publications">
+    {% for paper in selected_papers %}
+      {% include academic-publication.html paper=paper %}
+    {% endfor %}
+  </ol>
 
-My current research interest lies in LLM agents and black-box optimization (BBO), with their applications in AI4Science (e.g., geoscience and soil property analysis) and industrial scenarios (e.g., electronic design automation). 
+  <div id="more-publications" class="more-publications">
+    <h3 class="publication-subheading">More papers</h3>
+    {% assign other_papers = site.data.publications | where: "featured", false %}
+    {% assign paper_years = other_papers | group_by: "year" | sort: "name" | reverse %}
+    {% for year in paper_years %}
+    <div class="publication-year">
+      <h3 class="year-label">{{ year.name }}</h3>
+      <ol class="publications">
+        {% for paper in year.items %}
+          {% include academic-publication.html paper=paper %}
+        {% endfor %}
+      </ol>
+    </div>
+    {% endfor %}
+  </div>
+</section>
 
-<!--
-I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
--->
+<div class="background-grid">
+<section id="education" aria-labelledby="education-heading">
+  <span id="-educations" class="legacy-anchor" aria-hidden="true"></span>
+  <h2 id="education-heading">Education</h2>
+  <ul class="dated-list education-list">
+    <li><span class="date">2025.09 – Present</span><span><strong>Nanjing University</strong><br>PhD Student, School of Artificial Intelligence.</span></li>
+    <li><span class="date">2021.09 – 2025.06</span><span><strong>Nanjing University</strong><br>Undergraduate, School of Artificial Intelligence.</span></li>
+    <li><span class="date">2018.09 – 2021.06</span><span><strong>Xinhui No. 1 Middle School</strong>, Guangdong.</span></li>
+  </ul>
+</section>
 
-# 🔥 News
-- *2026.09*: &nbsp;🎉🎉 One co-first-authored paper on AI for Science has been accepted by Nature Food.
-- *2026.04*: &nbsp;🎉🎉 GenRe² is accepted by ICML'26.
-- *2025.06*: &nbsp;🎉🎉 Research results reported by NSFC [[Link](https://www.nsfc.gov.cn/p1/3381/2825/83716.html)].
-- *2025.01*: &nbsp;🎉🎉 Offline-RaM is accepted by ICLR'25.
-- *2024.12*: &nbsp;🎉🎉 I got Top-Grade Scholarship of Nanjing University.
-- *2024.09*: &nbsp;🎉🎉 I got National Science Foundation for Undergraduates.
-
-# 📝 Publications 
-
-\* indicates equal contribution.
-
-## 📤 Preprint
-1. Chao Qian, Chen-Guang Wang, **Rong-Xi Tan**, Ke Xue. Rethinking Learnability in Offline Data-driven Optimization. arXiv:2609.01493. [[Paper](https://arxiv.org/abs/2609.01493)]
-1. Shen-Huan Lyu, **Rong-Xi Tan**, Ke Xue, Yi-Xiao He, Yu Huang, Qingfu Zhang, Chao Qian. On the Learnability of Offline Model-Based Optimization: A Ranking Perspective. arXiv:2603.04000. [[Paper](https://arxiv.org/abs/2603.04000)]
-
-## 📈 Conference
-
-1. Ming Chen\*, Sheng Tang\*, **Rong-Xi Tan\***, Ziniu Li, Jiacheng Chen, Ke Xue, Chao Qian. Beyond Token-level Supervision: Unlocking the Potential of Decoding-based Regression via Reinforcement Learning. In: **Proceedings of the 43rd International Conference on Machine Learning (ICML'26)**, Seoul, South Korea, 2026. [[Paper](https://openreview.net/forum?id=ul2qlPcb5Y)] [[Code](https://github.com/lamda-bbo/GenRe2)]
-1. **Rong-Xi Tan\***, Ming Chen\*, Ke Xue, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings. In: **Proceedings of the 42nd International Conference on Machine Learning (ICML'25)**, Vancouver, Canada, 2025, pp. 58499-58544. [[Paper](https://openreview.net/forum?id=NOV32X1Rq3)] [[Code](https://github.com/trxcc/universal-offline-bbo)]<br>
-  Also in: [**2nd Workshop on Foundation Models in the Wild**](https://fm-wild-community.github.io/) **at ICLR'25**, Singapore, 2025. **(Oral presentation)** 
-1. **Rong-Xi Tan**, Ke Xue, Shen-Huan Lyu, Haopu Shang, Yao Wang, Yaoyuan Wang, Sheng Fu, Chao Qian. Offline Model-Based Optimization by Learning to Rank. In: **Proceedings of the 13th International Conference on Learning Representation (ICLR'25)**, Singapore, 2025. [[Paper](http://arxiv.org/abs/2410.11502)] [[Code](https://github.com/trxcc/Offline-RaM)]
-1. Ke Xue\*, **Rong-Xi Tan\***, Xiaobin Huang, Chao Qian. Offline Multi-Objective Optimization. In: **Proceedings of the 41st International Conference on Machine Learning (ICML'24)**, Vienna, Austria, 2024, pp. 55595-55624. [[Paper](https://arxiv.org/abs/2406.03722)] [[Code](https://github.com/lamda-bbo/offline-moo)]
-
-## 📚 Journal
-
-1. Yishen Sun\*, Han Hu\*, **Rong-Xi Tan\***, Julian Helfenstein, Richard W. McDowell, Baojing Gu, Haowei Ni, Weigen Huang, Jixian Ding, Ke Xue, Chao Qian, Jizhong Zhou, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Global patterns and feasible improvement potential of phosphorus use efficiency in cereal croplands. **Nature Food**, 2026. [[Paper](https://www.nature.com/articles/s43016-026-01419-9)]
-1. Ke Xue\*, Ruo-Tong Chen\*, **Rong-Xi Tan\***, Xi Lin, Yunqi Shi, Siyuan Xu, Mingxuan Yuan, and Chao Qian. BBOPlace-Bench: Benchmarking Black-Box Optimization for Chip Placement. **IEEE Transactions on Evolutionary Computation**, in press. [[Paper](https://arxiv.org/abs/2510.23472)] [[Code](https://github.com/lamda-bbo/BBOPlace-Bench)]
-1. Han Hu, Ke Xue, Yishen Sun, Qing Zhu, Hans K. Carlson, Ruiwen Hu, **Rong-Xi Tan**, Chao Qian, Weigen Huang, Jizhong Zhou, Jingdong Mao, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Discrepancy in Quantifying the Temperature Dependence of Global Wetland Methane Emission. **Global Change Biology**, 2026, 32(2): e70748. [[Paper](https://onlinelibrary.wiley.com/doi/10.1111/gcb.70748)]
-1. Han Hu\*, Chao Qian\*, Ke Xue\*, Rainer Georg Jörgensen, Marco Keiluweit, Chao Liang, Xuefeng Zhu, Ji Chen, Yishen Sun, Haowei Ni, Jixian Ding, Weigen Huang, Jingdong Mao, **Rong-Xi Tan**, Jizhong Zhou, Thomas W. Crowther, Zhi-Hua Zhou, Jiabao Zhang, and Yuting Liang. Reducing the Uncertainty in Estimating Soil Microbial Derived Carbon Storage. **Proceedings of the National Academy of Sciences (PNAS)**, 2024, 121(35): e2401916121. [[Paper](https://www.pnas.org/doi/10.1073/pnas.2401916121)]
-
-
-
-<!--
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<section id="service" aria-labelledby="service-heading">
+  <h2 id="service-heading">Academic Service</h2>
+  <div class="service-columns">
+    <div>
+      <h3>Journal Reviewer</h3>
+      <ul class="plain-list">
+        <li>Transactions on Machine Learning Research</li>
+        <li>IEEE Transactions on Evolutionary Computation</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Conference Reviewer</h3>
+      <ul class="plain-list">
+        <li>ICLR: 2025, 2026</li>
+        <li>NeurIPS: 2025</li>
+        <li>ICML: 2026 <span class="reviewer-note">(Gold Reviewer)</span></li>
+        <li>AAAI: 2027</li>
+      </ul>
+    </div>
+  </div>
+</section>
 </div>
+
+<section id="honors" aria-labelledby="honors-heading">
+  <span id="-honors-and-awards" class="legacy-anchor" aria-hidden="true"></span>
+  <h2 id="honors-heading">Honors &amp; Awards</h2>
+  <ul class="dated-list">
+    <li><time datetime="2025-06">Jun 2025</time><span>Research results reported by <a href="https://www.nsfc.gov.cn/p1/3381/2825/83716.html">NSFC</a>.</span></li>
+    <li><time datetime="2024-12">Dec 2024</time><span>Nanjing University Top-Grade Scholarship — the university’s highest honor.</span></li>
+    <li><time datetime="2024-09">Sep 2024</time><span>National Science Foundation for Undergraduates (国家自然科学基金本科生项目).</span></li>
+    <li><time datetime="2024-04">Apr 2024</time><span>Merit Student of Jiangsu Province.</span></li>
+    <li><time datetime="2023-11">Nov 2023</time><span>Bailu Scholarship, Nanjing University.</span></li>
+    <li><time datetime="2023-07">Jul 2023</time><span>Pacemaker to Outstanding Students, Nanjing University.</span></li>
+    <li><time datetime="2023-05">May 2023</time><span>One Hundred Outstanding Youths of Qixia District, Communist Youth League of Qixia District.</span></li>
+    <li><time datetime="2022-11">Nov 2022</time><span>Second Prize Nationwide in the <a href="http://www.mcm.edu.cn/">National University Mathematical Modeling Competition</a>.</span></li>
+  </ul>
+</section>
+
+<section id="talks" aria-labelledby="talks-heading">
+  <h2 id="talks-heading">Invited Talks</h2>
+  <ul class="dated-list">
+    <li><time datetime="2025-09">Sep 2025</time><span>Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings.<br><a href="https://sites.google.com/view/leadworkshop2025">LEAD Workshop by SCUT</a> · Virtual.</span></li>
+  </ul>
+</section>
+
+<section id="miscellaneous" aria-labelledby="miscellaneous-heading">
+  <span id="-Miscellaneous" class="legacy-anchor" aria-hidden="true"></span>
+  <h2 id="miscellaneous-heading">Beyond Research</h2>
+  <p>My Chinese name is 谭荣熙 (Tan Rongxi), pronounced approximately as /tɑːm wɪŋ ‘heɪ/ in Cantonese.</p>
+  <p>I enjoy Cantopop and am a fan of <a href="https://en.wikipedia.org/wiki/Joey_Yung">Joey Yung</a>—especially <a href="https://zh.wikipedia.org/wiki/%E5%BF%83%E4%B9%8B%E7%A7%91%E5%AD%B8">心之科學</a>. I also enjoy going to the gym, jogging, and playing badminton.</p>
+</section>
+
+<footer class="site-footer">
+  <span>Rong-Xi Tan · Nanjing University</span>
+  <a href="#about-me">Back to top ↑</a>
+</footer>
+
+<div class="visitor-map">
+  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=5yfauFD3He7e5eUfjK92_4cq7sJHjoAJIS6eoVMNLWo&amp;cl=ffffff&amp;w=a"></script>
 </div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
--->
-
-# 🎖 Honors and Awards
-- *2025.06*: Research results reported by NSFC [[Link](https://www.nsfc.gov.cn/p1/3381/2825/83716.html)].
-- *2024.12*: Nanjing University Top-Grade Scholarship (the highest honor at Nanjing University).
-- *2024.09*: National Science Foundation for Undergraduates (国家自然科学基金本科生项目).
-- *2024.04*: Merit Student of Jiangsu Province.
-- *2023.11*: Bailu Scholarship, Nanjing University. 
-- *2023.07*: Pacemaker to Outstanding students, Nanjing University. 
-- *2023.05*: One Hundred Outstanding Youths of Qixia District, Communist Youth League of Qixia District. 
-- *2022.11*: Second Prize Nationwide in [National University Mathematical Modeling Competition (MCM)](http://www.mcm.edu.cn/).
-
-# 📪 Services
-**Journal Reviewer**:
-- TMLR
-- IEEE Transactions on Evolutionary Computation
-
-**Conference Reviewer**:
-- ICLR: 2025, 2026
-- NeurIPS: 2025
-- ICML: 2026 (Gold Reviewer)
-- AAAI: 2027
-
-# 📖 Educations
-- *2025.09 - Present*, PhD student in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
-- *2021.09 - 2025.06*, Undergradute in [the School of Artificial Intelligence](https://ai.nju.edu.cn), [Nanjing University](https://www.nju.edu.cn/).
-- *2018.09 - 2021.06*, Xinhui No.1 Middle School, Guangdong. 
-
-
-# 💬 Invited Talks
-- *2025.09*, Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings. @ [LEAD Workshop by SCUT](https://sites.google.com/view/leadworkshop2025), Virtual.
-
-<!--
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
--->
-
-# 🥳 Miscellaneous
-- My Chinese name is 谭荣熙 (Tan Rongxi), which can be pronounced as /tɑːm wɪŋ 'heɪ/ in Cantonese.
-- I sincerely enjoy in Cantopop, and I am a fan of [Joey](https://en.wikipedia.org/wiki/Joey_Yung). It would be absolutely cool if you are also interested in [心之科學](https://zh.wikipedia.org/wiki/%E5%BF%83%E4%B9%8B%E7%A7%91%E5%AD%B8).
-- I also enjoy working out, like going to the gym💪, jogging🏃, and playing badminton🏸 (though I could not play it for a long time due to injury😭).
-
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=5yfauFD3He7e5eUfjK92_4cq7sJHjoAJIS6eoVMNLWo&cl=ffffff&w=a" width="80%"></script>

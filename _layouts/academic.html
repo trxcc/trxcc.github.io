@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  {% include seo.html %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="site-name" href="#about-me">Rong-Xi Tan</a>
+      <div class="nav-links">
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#service">Service</a>
+        <a href="#honors">Honors</a>
+      </div>
+    </nav>
+    <main id="main">{{ content }}</main>
+  </div>
+  {% include analytics.html %}
+</body>
+</html>

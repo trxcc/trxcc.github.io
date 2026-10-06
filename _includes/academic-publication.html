@@ -1,0 +1,16 @@
+{% assign paper = include.paper %}
+<li class="publication{% if paper.image %} publication-with-figure{% endif %}{% if paper.featured %} publication-featured{% endif %}" id="paper-{{ paper.id }}">
+  {% if paper.image %}
+  <a class="paper-figure" href="{{ paper.figure_url }}" aria-label="View the figure from {{ paper.title | escape }}">
+    <img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | escape }}" width="{{ paper.image_width }}" height="{{ paper.image_height }}" loading="lazy" decoding="async">
+  </a>
+  {% endif %}
+  <div class="paper-content">
+    {% if paper.topic %}<p class="paper-topic">{{ paper.topic }}</p>{% endif %}
+    <h4><a href="{{ paper.links.first.url }}">{{ paper.title }}</a></h4>
+    <p class="authors">{% for author in paper.authors %}{% if author == 'Rong-Xi Tan' %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% if paper.equal_contributors and forloop.index <= paper.equal_contributors %}<sup>*</sup>{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}{% endfor %}.</p>
+    <p class="venue"><em>{{ paper.venue }}{% if paper.acronym %} ({{ paper.acronym }}){% endif %}{% if paper.arxiv %} {{ paper.arxiv }}{% endif %}</em>, {{ paper.year }}{% if paper.volume %}, <span class="citation-location">{% if paper.series %}{{ paper.series }} {% endif %}{{ paper.volume }}{% if paper.issue %}({{ paper.issue }}){% endif %}{% if paper.pages %}: {{ paper.pages }}{% elsif paper.article_number %}: {{ paper.article_number }}{% endif %}</span>{% endif %}{% if paper.status %}, {{ paper.status }}{% endif %}.</p>
+    <div class="paper-links" aria-label="Resources for {{ paper.title | escape }}">{% for link in paper.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</div>
+    {% for note in paper.notes %}<div class="publication-note">{{ note | markdownify }}</div>{% endfor %}
+  </div>
+</li>
