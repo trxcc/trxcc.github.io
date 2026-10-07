@@ -113,7 +113,7 @@ redirect_from:
     <div>
       <h3>Conference Reviewer</h3>
       <ul class="plain-list">
-        <li>ICLR: 2025, 2026</li>
+        <li>ICLR: 2025, 2026, 2027</li>
         <li>NeurIPS: 2025</li>
         <li>ICML: 2026 <span class="reviewer-note">(Gold Reviewer)</span></li>
         <li>AAAI: 2027</li>
