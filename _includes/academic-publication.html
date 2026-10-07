@@ -9,8 +9,23 @@
     {% if paper.topic %}<p class="paper-topic">{{ paper.topic }}</p>{% endif %}
     <h4><a href="{{ paper.links.first.url }}">{{ paper.title }}</a></h4>
     <p class="authors">{% for author in paper.authors %}{% if author == 'Rong-Xi Tan' %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% if paper.equal_contributors and forloop.index <= paper.equal_contributors %}<sup>*</sup>{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}{% endfor %}.</p>
-    <p class="venue"><em>{{ paper.venue }}{% if paper.acronym %} ({{ paper.acronym }}){% endif %}{% if paper.arxiv %} {{ paper.arxiv }}{% endif %}</em>, {{ paper.year }}{% if paper.volume %}, <span class="citation-location">{% if paper.series %}{{ paper.series }} {% endif %}{{ paper.volume }}{% if paper.issue %}({{ paper.issue }}){% endif %}{% if paper.pages %}: {{ paper.pages }}{% elsif paper.article_number %}: {{ paper.article_number }}{% endif %}</span>{% endif %}{% if paper.status %}, {{ paper.status }}{% endif %}.</p>
-    <div class="paper-links" aria-label="Resources for {{ paper.title | escape }}">{% for link in paper.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</div>
+    <p class="venue"><em>{{ paper.venue }}{% if paper.acronym %} ({{ paper.acronym }}){% endif %}{% if paper.arxiv %} {{ paper.arxiv }}{% endif %}</em>{% if paper.volume %}, <span class="citation-location">{% if paper.series %}{{ paper.series }} {% endif %}{{ paper.volume }}{% if paper.issue %}({{ paper.issue }}){% endif %}{% if paper.pages %}: {{ paper.pages }}{% elsif paper.article_number %}: {{ paper.article_number }}{% endif %}</span>{% endif %}, {{ paper.year }}{% if paper.status %}, {{ paper.status }}{% endif %}.</p>
+    <div class="paper-links" aria-label="Resources for {{ paper.title | escape }}">
+      {% for link in paper.links %}<a href="{{ link.url }}">[{{ link.label | downcase }}]</a>{% endfor %}
+      <details class="bibtex">
+        <summary aria-label="BibTeX for {{ paper.title | escape }}">[bib]</summary>
+        <div class="bibtex-panel">
+          <div class="bibtex-toolbar">
+            <span>BibTeX</span>
+            <button type="button" class="bibtex-copy" hidden>Copy</button>
+            <a href="{{ '/files/bibtex/' | append: paper.id | append: '.bib' | relative_url }}" download>Download .bib</a>
+          </div>
+          {% capture bibtex %}{% include academic-bibtex.bib paper=paper %}{% endcapture %}
+          <pre tabindex="0" aria-label="BibTeX citation"><code>{{ bibtex | strip | escape }}</code></pre>
+          <p class="bibtex-status" role="status" aria-live="polite"></p>
+        </div>
+      </details>
+    </div>
     {% for note in paper.notes %}<div class="publication-note">{{ note | markdownify }}</div>{% endfor %}
   </div>
 </li>

@@ -1,0 +1,43 @@
+{%- assign citation = include.paper -%}
+{%- assign left_brace = '{' -%}
+{%- assign right_brace = '}' -%}
+{%- capture bib_ouml -%}{\"o}{%- endcapture -%}
+{%- case citation.type -%}
+  {%- when 'conference' -%}{%- assign entry_type = 'inproceedings' -%}
+  {%- when 'preprint' -%}{%- assign entry_type = 'misc' -%}
+  {%- else -%}{%- assign entry_type = 'article' -%}
+{%- endcase -%}
+@{{ entry_type }}{{ left_brace }}{{ citation.citekey }},
+  title = {{ left_brace }}{{ left_brace }}{{ citation.title }}{{ right_brace }}{{ right_brace }},
+  author = {{ left_brace }}{{ citation.authors | join: ' and ' | replace: 'ö', bib_ouml }}{{ right_brace }},
+{%- if citation.type == 'conference' %}
+  booktitle = {{ left_brace }}{{ citation.venue }}{{ right_brace }},
+{%- elsif citation.type == 'journal' %}
+  journal = {{ left_brace }}{{ citation.venue }}{{ right_brace }},
+{%- endif %}
+  year = {{ left_brace }}{{ citation.year }}{{ right_brace }},
+{%- if citation.series == 'PMLR' %}
+  series = {Proceedings of Machine Learning Research},
+  publisher = {PMLR},
+{%- endif %}
+{%- if citation.volume %}
+  volume = {{ left_brace }}{{ citation.volume }}{{ right_brace }},
+{%- endif %}
+{%- if citation.issue %}
+  number = {{ left_brace }}{{ citation.issue }}{{ right_brace }},
+{%- endif %}
+{%- if citation.pages %}
+  pages = {{ left_brace }}{{ citation.pages | replace: '–', '--' }}{{ right_brace }},
+{%- elsif citation.article_number %}
+  pages = {{ left_brace }}{{ citation.article_number }}{{ right_brace }},
+{%- endif %}
+{%- if citation.type == 'preprint' %}
+  eprint = {{ left_brace }}{{ citation.arxiv }}{{ right_brace }},
+  archivePrefix = {arXiv},
+  primaryClass = {{ left_brace }}{{ citation.primary_class }}{{ right_brace }},
+{%- endif %}
+{%- if citation.status %}
+  note = {{ left_brace }}{{ citation.status | capitalize }}{{ right_brace }},
+{%- endif %}
+  url = {{ left_brace }}{{ citation.links.first.url }}{{ right_brace }}
+}

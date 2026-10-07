@@ -1,0 +1,6 @@
+---
+layout: null
+paper_id: genre2
+---
+{%- assign paper = site.data.publications | where: "id", page.paper_id | first -%}
+{%- include academic-bibtex.bib paper=paper -%}

@@ -1,8 +1,10 @@
 # Bibliographic fields are rendered by _includes/academic-publication.html.
 # Preserve publisher title capitalization, spell out authors, and mark the
 # first equal_contributors authors with *. Never use placeholder page ranges.
-# Sources and figure provenance: docs/publications-sources.md (checked 2026-10-06).
+# Citekeys also feed the inline and downloadable BibTeX through one template.
+# Sources and figure provenance: docs/publications-sources.md (checked 2026-10-07).
 - id: phosphorus-efficiency
+  citekey: sun2026global
   title: "Global patterns and feasible improvement potential of phosphorus use efficiency in cereal croplands"
   authors: ["Yishen Sun", "Han Hu", "Rong-Xi Tan", "Julian Helfenstein", "Richard W. McDowell", "Baojing Gu", "Haowei Ni", "Weigen Huang", "Jixian Ding", "Ke Xue", "Chao Qian", "Jizhong Zhou", "Zhi-Hua Zhou", "Jiabao Zhang", "Yuting Liang"]
   equal_contributors: 3
@@ -24,6 +26,7 @@
       url: "https://www.nature.com/articles/s43016-026-01419-9"
 
 - id: genre2
+  citekey: chen2026beyond
   title: "Beyond Token-level Supervision: Unlocking the Potential of Decoding-based Regression via Reinforcement Learning"
   authors: ["Ming Chen", "Sheng Tang", "Rong-Xi Tan", "Ziniu Li", "Jiacheng Chen", "Ke Xue", "Chao Qian"]
   equal_contributors: 3
@@ -50,6 +53,7 @@
       url: "https://github.com/lamda-bbo/GenRe2"
 
 - id: bboplace-bench
+  citekey: xue2026bboplace
   title: "BBOPlace-Bench: Benchmarking Black-Box Optimization for Chip Placement"
   authors: ["Ke Xue", "Ruo-Tong Chen", "Rong-Xi Tan", "Xi Lin", "Yunqi Shi", "Siyuan Xu", "Mingxuan Yuan", "Chao Qian"]
   equal_contributors: 3
@@ -73,6 +77,7 @@
       url: "https://github.com/lamda-bbo/BBOPlace-Bench"
 
 - id: universal-bbo
+  citekey: tan2025towards
   title: "Towards Universal Offline Black-Box Optimization via Learning Language Model Embeddings"
   authors: ["Rong-Xi Tan", "Ming Chen", "Ke Xue", "Yao Wang", "Yaoyuan Wang", "Sheng Fu", "Chao Qian"]
   equal_contributors: 2
@@ -101,31 +106,67 @@
     - label: Code
       url: "https://github.com/lamda-bbo/universal-offline-bbo"
 
+- id: agentic-hdbo
+  citekey: gao2026agentic
+  title: "Agentic High-Dimensional Bayesian Optimization with Hypothesis- and Evidence-Guided Search"
+  authors: ["Zhixuan Gao", "Ke Xue", "Rong-Xi Tan", "Ming Chen", "Chao Qian"]
+  type: preprint
+  venue: "arXiv preprint"
+  arxiv: "2609.34281"
+  primary_class: cs.LG
+  year: 2026
+  featured: false
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2609.34281"
+
+- id: critic-learning
+  citekey: li2026rethinking
+  title: "Rethinking Critic Learning in PPO: Understanding and Mitigating Value Flattening"
+  authors: ["Yizhuo Li", "Jianhao Yan", "Yun Luo", "Zhi Wang", "Futing Wang", "Rong-Xi Tan", "Kanghui Tian", "Ganqu Cui", "Ning Ding", "Peilin Zhao", "Yafu Li", "Yu Cheng"]
+  equal_contributors: 2
+  type: preprint
+  venue: "arXiv preprint"
+  arxiv: "2609.18708"
+  primary_class: cs.LG
+  year: 2026
+  featured: false
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2609.18708"
+    - label: Code
+      url: "https://github.com/Dodojordi/SP3O"
+
 - id: rethinking-learnability
+  citekey: qian2026rethinking
   title: "Rethinking Learnability in Offline Data-driven Optimization"
   authors: ["Chao Qian", "Chen-Guang Wang", "Rong-Xi Tan", "Ke Xue"]
   type: preprint
   venue: "arXiv preprint"
   arxiv: "2609.01493"
+  primary_class: cs.LG
   year: 2026
   featured: false
   links:
-    - label: Paper
+    - label: arXiv
       url: "https://arxiv.org/abs/2609.01493"
 
 - id: learnability-ranking
+  citekey: lyu2026learnability
   title: "On the Learnability of Offline Model-Based Optimization: A Ranking Perspective"
   authors: ["Shen-Huan Lyu", "Rong-Xi Tan", "Ke Xue", "Yi-Xiao He", "Yu Huang", "Qingfu Zhang", "Chao Qian"]
   type: preprint
   venue: "arXiv preprint"
   arxiv: "2603.04000"
+  primary_class: cs.LG
   year: 2026
   featured: false
   links:
-    - label: Paper
+    - label: arXiv
       url: "https://arxiv.org/abs/2603.04000"
 
 - id: wetland-methane
+  citekey: hu2026reducing
   title: "Reducing the Discrepancy in Quantifying the Temperature Dependence of Global Wetland Methane Emission"
   authors: ["Han Hu", "Ke Xue", "Yishen Sun", "Qing Zhu", "Hans K. Carlson", "Ruiwen Hu", "Rong-Xi Tan", "Chao Qian", "Weigen Huang", "Jizhong Zhou", "Jingdong Mao", "Thomas W. Crowther", "Zhi-Hua Zhou", "Jiabao Zhang", "Yuting Liang"]
   type: journal
@@ -140,6 +181,7 @@
       url: "https://onlinelibrary.wiley.com/doi/10.1111/gcb.70748"
 
 - id: offline-ram
+  citekey: tan2025offline
   title: "Offline Model-Based Optimization by Learning to Rank"
   authors: ["Rong-Xi Tan", "Ke Xue", "Shen-Huan Lyu", "Haopu Shang", "Yao Wang", "Yaoyuan Wang", "Sheng Fu", "Chao Qian"]
   type: conference
@@ -162,6 +204,7 @@
       url: "https://github.com/lamda-bbo/Offline-RaM"
 
 - id: offline-moo
+  citekey: xue2024offline
   title: "Offline Multi-Objective Optimization"
   authors: ["Ke Xue", "Rong-Xi Tan", "Xiaobin Huang", "Chao Qian"]
   equal_contributors: 2
@@ -186,6 +229,7 @@
       url: "https://github.com/lamda-bbo/offline-moo"
 
 - id: soil-carbon
+  citekey: hu2024reducing
   title: "Reducing the uncertainty in estimating soil microbial-derived carbon storage"
   authors: ["Han Hu", "Chao Qian", "Ke Xue", "Rainer Georg Jörgensen", "Marco Keiluweit", "Chao Liang", "Xuefeng Zhu", "Ji Chen", "Yishen Sun", "Haowei Ni", "Jixian Ding", "Weigen Huang", "Jingdong Mao", "Rong-Xi Tan", "Jizhong Zhou", "Thomas W. Crowther", "Zhi-Hua Zhou", "Jiabao Zhang", "Yuting Liang"]
   equal_contributors: 3

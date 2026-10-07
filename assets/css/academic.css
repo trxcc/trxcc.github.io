@@ -20,7 +20,7 @@ body {
 }
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: 3px; }
-a:focus-visible, summary:focus-visible {
+a:focus-visible, summary:focus-visible, button:focus-visible, pre:focus-visible {
   outline: 2px solid var(--link);
   outline-offset: 4px;
 }
@@ -123,9 +123,25 @@ h3 { margin: 21px 0 12px; font-size: 14px; line-height: 1.5; font-weight: 600; c
 .venue { margin: 5px 0 0; color: #46554b; }
 .venue em { font-style: italic; }
 .citation-location { white-space: nowrap; }
-.paper-links { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 8px; font-size: 12px; }
+.paper-content { min-width: 0; }
+.paper-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 15px; margin-top: 8px; font-size: 12px; }
 .paper-links a { line-height: 1.5; border-bottom: 1px solid #c4d4c8; }
 .paper-links a:hover { border-color: var(--link); text-decoration: none; }
+.bibtex { min-width: 0; }
+.bibtex summary { width: fit-content; color: var(--link); cursor: pointer; line-height: 1.5; list-style: none; border-bottom: 1px solid #c4d4c8; }
+.bibtex summary::-webkit-details-marker { display: none; }
+.bibtex summary:hover { border-color: var(--link); }
+.bibtex[open] { flex-basis: 100%; }
+.bibtex[open] summary { margin-bottom: 10px; }
+.bibtex-panel { padding: 13px 15px; background: var(--soft); border: 1px solid var(--line); border-radius: 3px; }
+.bibtex-toolbar { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 15px; color: var(--muted); }
+.bibtex-toolbar > span { margin-right: auto; }
+.bibtex-copy { padding: 0; background: none; border: 0; border-bottom: 1px solid #c4d4c8; color: var(--link); cursor: pointer; font: inherit; line-height: 1.5; }
+.bibtex-copy:hover { border-color: var(--link); }
+.bibtex-copy:disabled { opacity: 0.6; cursor: wait; }
+.bibtex pre { max-height: 320px; overflow: auto; margin: 12px 0 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 11px/1.65 ui-monospace, SFMono-Regular, Consolas, monospace; }
+.bibtex-status { margin: 10px 0 0; color: var(--muted); }
+.bibtex-status:empty { display: none; }
 .publication-note { margin-top: 7px; color: var(--muted); font-size: 12px; line-height: 1.5; }
 .publication-note p { margin: 0; }
 .publication-note strong { color: var(--warm); font-weight: 500; }
@@ -233,6 +249,7 @@ h3 { margin: 21px 0 12px; font-size: 14px; line-height: 1.5; font-weight: 600; c
   body { border: 0; }
   .site { max-width: none; padding: 0; }
   .site-nav, .skip-link, .visitor-map, .site-footer, .publication-nav a { display: none; }
+  .bibtex { display: none; }
   .profile { margin-top: 0; }
   .publication { break-inside: avoid; }
 }

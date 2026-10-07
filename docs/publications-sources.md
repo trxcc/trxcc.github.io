@@ -1,15 +1,15 @@
 # Publication maintenance
 
-Verified on 6 October 2026. Homepage entries live in `_data/publications.yml`; both selected and compact entries use `_includes/academic-publication.html`. Each work appears once. The `featured` field controls the selected-work section; `image` independently controls whether an entry has a figure.
+Verified on 7 October 2026. Homepage entries live in `_data/publications.yml`; both selected and compact entries use `_includes/academic-publication.html`. Each work appears once. The `featured` field controls the selected-work section; `image` independently controls whether an entry has a figure.
 
 ## Formatting conventions
 
 - Preserve the official title's capitalization and hyphenation; do not apply CSS title case.
 - Use full author names, bold Rong-Xi Tan, and superscript * for equal contribution.
-- Use the same order: title; authors; venue, year, volume(issue): pages or article number; resources.
+- Use the same order: title; authors; venue, volume(issue): pages or article number, year; resources. Omit fields that do not apply. Put in-press status after the year.
 - Use an en dash for page ranges. Article numbers are not page ranges.
 - Include PMLR volume and pagination for ICML papers. ICLR does not have a conventional proceedings page range.
-- Label links Paper, OpenReview, arXiv, or Code consistently. No separate DOI label; no Nature Food code link.
+- Label resources consistently as [paper], [openreview], [arxiv], [code], and [bib]. Preprints link directly to their arXiv abstract page. No separate DOI label; no Nature Food code link.
 - Keep journal reviewer names in full, without appended abbreviations.
 
 ## Verified records
@@ -20,6 +20,8 @@ Verified on 6 October 2026. Homepage entries live in `_data/publications.yml`; b
 | GenRe² | [PMLR](https://proceedings.mlr.press/v306/chen26ec.html), [author manuscript](https://arxiv.org/abs/2512.06533) | ICML 2026, PMLR 306: 16875–16909. Keep the requested OpenReview and Code links. |
 | Universal BBO | [PMLR](https://proceedings.mlr.press/v267/tan25b.html), [author manuscript](https://arxiv.org/abs/2506.07109) | ICML 2025, PMLR 267: 58499–58544. PMLR's landing-page author metadata inverts Sheng Fu; the PDF and author manuscript confirm Sheng Fu, which is retained. |
 | Universal BBO — Hot off the Press | [ACM](https://dl.acm.org/doi/10.1145/3795101.3814642), [publisher-deposited Crossref metadata](https://api.crossref.org/works/10.1145/3795101.3814642) | GECCO 2026 Companion, pp. 85–86. Listed as a note under the original work, not counted twice. |
+| Agentic HDBO (HERA) | [arXiv](https://arxiv.org/abs/2609.34281), [author manuscript](https://arxiv.org/html/2609.34281v1) | New preprint, 28 September 2026. Five authors; normalize Rongxi Tan to Rong-Xi Tan. No equal-contribution statement or official code link found in the manuscript. |
+| Rethinking Critic Learning (SP³O) | [arXiv](https://arxiv.org/abs/2609.18708), [author manuscript](https://arxiv.org/html/2609.18708v1) | New preprint, 16 September 2026. Twelve authors; first two contribute equally. The manuscript links to [SP3O code](https://github.com/Dodojordi/SP3O). |
 | Rethinking Learnability | [arXiv](https://arxiv.org/abs/2609.01493) | Retained as a 2026 preprint; no confirmed proceedings information. |
 | Learnability: A Ranking Perspective | [arXiv](https://arxiv.org/abs/2603.04000) | Retained as a 2026 preprint; no confirmed proceedings information. |
 | BBOPlace-Bench | [IEEE](https://ieeexplore.ieee.org/document/11605958/), [publisher-deposited Crossref metadata](https://api.crossref.org/works/10.1109/tevc.2026.3712410), [Chao Qian's publication list](https://www.lamda.nju.edu.cn/qianc/) | Added 2026 and the IEEE article link. No final volume/issue; Crossref's 1–1 is a placeholder, not publication pagination. Retain in press. |
@@ -29,6 +31,17 @@ Verified on 6 October 2026. Homepage entries live in `_data/publications.yml`; b
 | Soil microbial-derived carbon | [PNAS](https://www.pnas.org/doi/10.1073/pnas.2401916121), [publisher-deposited Crossref metadata](https://api.crossref.org/works/10.1073/pnas.2401916121) | 2024, 121(35): e2401916121. Corrected title casing and microbial-derived hyphenation. |
 
 The Nature page was readable via an ordinary HTTP fetch even though the search browser's fetch hit a cookie redirect. The OpenReview and ACM landing pages could not be inspected in that fetcher; use PMLR, author manuscripts, advisor records, and publisher-deposited metadata as indicated above.
+
+The Google Scholar profile (`m82W6XUAAAAJ`) timed out during the 7 October check. As a fallback, checked arXiv's full author searches for both [Rong-Xi Tan](https://arxiv.org/search/?query=Tan%2C+Rong-Xi&searchtype=author&abstracts=hide&order=-announced_date_first&size=50) (eight results) and [Rongxi Tan](https://arxiv.org/search/?query=Tan%2C+Rongxi&searchtype=author&abstracts=hide&order=-announced_date_first&size=50) (one result). Those nine distinct arXiv works are represented in the homepage, with published works cited using the publisher record rather than counted again as preprints. This is not a claim that the entire Scholar profile was read.
+
+## BibTeX maintenance
+
+- Every entry has a unique `citekey`. `_includes/academic-bibtex.bib` generates both the inline [bib] panel and the corresponding `files/bibtex/<id>.bib` download from the same YAML record.
+- Journal papers use `@article`, conference papers `@inproceedings`, and arXiv-only papers `@misc` with `eprint`, `archivePrefix`, and `primaryClass`. Article identifiers occupy the standard `pages` field for compatibility with classic BibTeX styles.
+- Preserve title capitalization with an extra pair of braces, use `and` between authors, `--` for page ranges, and a TeX accent for Jörgensen. Equal-contribution markers belong only in the webpage, not the BibTeX author field.
+- Do not add invented pages, conference acceptances, or DOI fields. The citation URL points to the primary publication record.
+- Native HTML details and downloads work without JavaScript. The small `academic-bibtex.js` enhancement adds clipboard copying when supported and reports a manual-copy/download fallback if access fails.
+- When adding a paper, add its YAML record and a thin `.bib` wrapper containing its `paper_id`; no duplicated citation metadata is needed.
 
 ## Figure provenance
 
