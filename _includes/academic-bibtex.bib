@@ -2,42 +2,55 @@
 {%- assign left_brace = '{' -%}
 {%- assign right_brace = '}' -%}
 {%- capture bib_ouml -%}{\"o}{%- endcapture -%}
-{%- case citation.type -%}
-  {%- when 'conference' -%}{%- assign entry_type = 'inproceedings' -%}
-  {%- when 'preprint' -%}{%- assign entry_type = 'misc' -%}
-  {%- else -%}{%- assign entry_type = 'article' -%}
-{%- endcase -%}
+{%- assign bib_title = citation.title | downcase -%}
+{%- for term in citation.bib_protected_terms -%}
+  {%- assign term_lowercase = term | downcase -%}
+  {%- assign protected_term = term | prepend: left_brace | append: right_brace -%}
+  {%- assign bib_title = bib_title | replace: term_lowercase, protected_term -%}
+{%- endfor -%}
+{%- assign title_parts = bib_title | split: ': ' -%}
+{%- capture bib_title -%}
+  {%- for part in title_parts -%}
+    {%- assign initial = part | slice: 0, 1 -%}
+    {%- assign remainder = part | slice: 1, part.size -%}
+    {%- unless forloop.first -%}: {% endunless -%}
+    {%- if initial == left_brace -%}
+      {{- part -}}
+    {%- elsif forloop.first -%}
+      {{- initial | upcase -}}{{- remainder -}}
+    {%- else -%}
+      {{- left_brace -}}{{- initial | upcase -}}{{- right_brace -}}{{- remainder -}}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- if citation.type == 'conference' -%}
+  {%- assign entry_type = 'inproceedings' -%}
+{%- else -%}
+  {%- assign entry_type = 'article' -%}
+{%- endif -%}
 @{{ entry_type }}{{ left_brace }}{{ citation.citekey }},
-  title = {{ left_brace }}{{ left_brace }}{{ citation.title }}{{ right_brace }}{{ right_brace }},
-  author = {{ left_brace }}{{ citation.authors | join: ' and ' | replace: 'ö', bib_ouml }}{{ right_brace }},
+  title={{ left_brace }}{{ bib_title }}{{ right_brace }},
+  author={{ left_brace }}{{ citation.authors | join: ' and ' | replace: 'ö', bib_ouml }}{{ right_brace }},
 {%- if citation.type == 'conference' %}
-  booktitle = {{ left_brace }}{{ citation.venue }}{{ right_brace }},
+  booktitle={{ left_brace }}{{ citation.venue }}{% if citation.acronym %} ({{ citation.acronym }}){% endif %}{{ right_brace }},
+{%- elsif citation.type == 'preprint' %}
+  journal={{ left_brace }}arXiv:{{ citation.arxiv }}{{ right_brace }},
 {%- elsif citation.type == 'journal' %}
-  journal = {{ left_brace }}{{ citation.venue }}{{ right_brace }},
+  journal={{ left_brace }}{{ citation.venue }}{{ right_brace }},
 {%- endif %}
-  year = {{ left_brace }}{{ citation.year }}{{ right_brace }},
-{%- if citation.series == 'PMLR' %}
-  series = {Proceedings of Machine Learning Research},
-  publisher = {PMLR},
+{%- if citation.type == 'journal' and citation.volume %}
+  volume={{ left_brace }}{{ citation.volume }}{{ right_brace }},
 {%- endif %}
-{%- if citation.volume %}
-  volume = {{ left_brace }}{{ citation.volume }}{{ right_brace }},
-{%- endif %}
-{%- if citation.issue %}
-  number = {{ left_brace }}{{ citation.issue }}{{ right_brace }},
+{%- if citation.type == 'journal' and citation.issue %}
+  number={{ left_brace }}{{ citation.issue }}{{ right_brace }},
 {%- endif %}
 {%- if citation.pages %}
-  pages = {{ left_brace }}{{ citation.pages | replace: '–', '--' }}{{ right_brace }},
+  pages={{ left_brace }}{{ citation.pages | replace: '–', '--' }}{{ right_brace }},
 {%- elsif citation.article_number %}
-  pages = {{ left_brace }}{{ citation.article_number }}{{ right_brace }},
+  pages={{ left_brace }}{{ citation.article_number }}{{ right_brace }},
 {%- endif %}
-{%- if citation.type == 'preprint' %}
-  eprint = {{ left_brace }}{{ citation.arxiv }}{{ right_brace }},
-  archivePrefix = {arXiv},
-  primaryClass = {{ left_brace }}{{ citation.primary_class }}{{ right_brace }},
+{%- if citation.type == 'conference' and citation.address %}
+  address={{ left_brace }}{{ citation.address }}{{ right_brace }},
 {%- endif %}
-{%- if citation.status %}
-  note = {{ left_brace }}{{ citation.status | capitalize }}{{ right_brace }},
-{%- endif %}
-  url = {{ left_brace }}{{ citation.links.first.url }}{{ right_brace }}
+  year={{ left_brace }}{{ citation.year }}{{ right_brace }}
 }

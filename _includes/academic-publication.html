@@ -1,19 +1,25 @@
 {% assign paper = include.paper %}
+{% assign paper_title = paper.display_title | default: paper.title %}
+{% assign show_equal_contribution = false %}
+{% if paper.equal_contributors %}
+  {% for author in paper.authors limit: paper.equal_contributors %}
+    {% if author == 'Rong-Xi Tan' %}{% assign show_equal_contribution = true %}{% endif %}
+  {% endfor %}
+{% endif %}
 <li class="publication{% if paper.image %} publication-with-figure{% endif %}{% if paper.featured %} publication-featured{% endif %}" id="paper-{{ paper.id }}">
   {% if paper.image %}
-  <a class="paper-figure" href="{{ paper.figure_url }}" aria-label="View the figure from {{ paper.title | escape }}">
+  <a class="paper-figure" href="{{ paper.figure_url }}" aria-label="View the figure from {{ paper_title | escape }}">
     <img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | escape }}" width="{{ paper.image_width }}" height="{{ paper.image_height }}" loading="lazy" decoding="async">
   </a>
   {% endif %}
   <div class="paper-content">
-    {% if paper.topic %}<p class="paper-topic">{{ paper.topic }}</p>{% endif %}
-    <h4><a href="{{ paper.links.first.url }}">{{ paper.title }}</a></h4>
-    <p class="authors">{% for author in paper.authors %}{% if author == 'Rong-Xi Tan' %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% if paper.equal_contributors and forloop.index <= paper.equal_contributors %}<sup>*</sup>{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}{% endfor %}.</p>
+    <h4><a href="{{ paper.links.first.url }}">{{ paper_title }}</a></h4>
+    <p class="authors">{% for author in paper.authors %}{% if author == 'Rong-Xi Tan' %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% if show_equal_contribution and forloop.index <= paper.equal_contributors %}<sup>*</sup>{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}{% endfor %}.</p>
     <p class="venue"><em>{{ paper.venue }}{% if paper.acronym %} ({{ paper.acronym }}){% endif %}{% if paper.arxiv %} {{ paper.arxiv }}{% endif %}</em>{% if paper.volume %}, <span class="citation-location">{% if paper.series %}{{ paper.series }} {% endif %}{{ paper.volume }}{% if paper.issue %}({{ paper.issue }}){% endif %}{% if paper.pages %}: {{ paper.pages }}{% elsif paper.article_number %}: {{ paper.article_number }}{% endif %}</span>{% endif %}, {{ paper.year }}{% if paper.status %}, {{ paper.status }}{% endif %}.</p>
-    <div class="paper-links" aria-label="Resources for {{ paper.title | escape }}">
+    <div class="paper-links" aria-label="Resources for {{ paper_title | escape }}">
       {% for link in paper.links %}<a href="{{ link.url }}">[{{ link.label | downcase }}]</a>{% endfor %}
       <details class="bibtex">
-        <summary aria-label="BibTeX for {{ paper.title | escape }}">[bib]</summary>
+        <summary aria-label="BibTeX for {{ paper_title | escape }}">[bib]</summary>
         <div class="bibtex-panel">
           <div class="bibtex-toolbar">
             <span>BibTeX</span>

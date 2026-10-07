@@ -1,11 +1,13 @@
 # Bibliographic fields are rendered by _includes/academic-publication.html.
-# Preserve publisher title capitalization, spell out authors, and mark the
-# first equal_contributors authors with *. Never use placeholder page ranges.
+# Preserve the official title for citations; display_title can override its
+# homepage casing. Show co-first markers only when Rong-Xi Tan is co-first.
+# Never use placeholder page ranges. Protect only proper names in BibTeX.
 # Citekeys also feed the inline and downloadable BibTeX through one template.
 # Sources and figure provenance: docs/publications-sources.md (checked 2026-10-07).
 - id: phosphorus-efficiency
   citekey: sun2026global
   title: "Global patterns and feasible improvement potential of phosphorus use efficiency in cereal croplands"
+  display_title: "Global Patterns and Feasible Improvement Potential of Phosphorus Use Efficiency in Cereal Croplands"
   authors: ["Yishen Sun", "Han Hu", "Rong-Xi Tan", "Julian Helfenstein", "Richard W. McDowell", "Baojing Gu", "Haowei Ni", "Weigen Huang", "Jixian Ding", "Ke Xue", "Chao Qian", "Jizhong Zhou", "Zhi-Hua Zhou", "Jiabao Zhang", "Yuting Liang"]
   equal_contributors: 3
   type: journal
@@ -15,7 +17,6 @@
   issue: "9"
   pages: "869–877"
   featured: true
-  topic: "AI for Science"
   image: "/images/publications/phosphorus-efficiency.png"
   image_alt: "Maps of phosphorus use efficiency for maize, rice and wheat, and the relative importance of its drivers."
   image_width: 1200
@@ -34,11 +35,11 @@
   venue: "Proceedings of the 43rd International Conference on Machine Learning"
   acronym: ICML
   year: 2026
+  address: "Seoul, South Korea"
   series: PMLR
   volume: "306"
   pages: "16875–16909"
   featured: true
-  topic: "Language models · GenRe²"
   image: "/images/publications/genre2.png"
   image_alt: "GenRe² contrasts token-level losses with a sequence-level reinforcement learning reward for numerical regression."
   image_width: 732
@@ -55,6 +56,7 @@
 - id: bboplace-bench
   citekey: xue2026bboplace
   title: "BBOPlace-Bench: Benchmarking Black-Box Optimization for Chip Placement"
+  bib_protected_terms: ["BBOPlace-Bench"]
   authors: ["Ke Xue", "Ruo-Tong Chen", "Rong-Xi Tan", "Xi Lin", "Yunqi Shi", "Siyuan Xu", "Mingxuan Yuan", "Chao Qian"]
   equal_contributors: 3
   type: journal
@@ -62,7 +64,6 @@
   year: 2026
   status: "in press"
   featured: true
-  topic: "Electronic design automation · BBOPlace-Bench"
   image: "/images/publications/bboplace-bench.png"
   image_alt: "BBOPlace-Bench connects problem formulations, black-box optimizers and chip-layout evaluation in a modular benchmark."
   image_width: 1022
@@ -85,11 +86,11 @@
   venue: "Proceedings of the 42nd International Conference on Machine Learning"
   acronym: ICML
   year: 2025
+  address: "Vancouver, Canada"
   series: PMLR
   volume: "267"
   pages: "58499–58544"
   featured: true
-  topic: "Black-box optimization · UniSO"
   image: "/images/publications/universal-bbo.png"
   image_alt: "UniSO converts heterogeneous optimization tasks to strings, trains a universal regressor, and searches with a black-box optimizer."
   image_width: 722
@@ -109,11 +110,11 @@
 - id: agentic-hdbo
   citekey: gao2026agentic
   title: "Agentic High-Dimensional Bayesian Optimization with Hypothesis- and Evidence-Guided Search"
+  bib_protected_terms: ["Bayesian"]
   authors: ["Zhixuan Gao", "Ke Xue", "Rong-Xi Tan", "Ming Chen", "Chao Qian"]
   type: preprint
   venue: "arXiv preprint"
   arxiv: "2609.34281"
-  primary_class: cs.LG
   year: 2026
   featured: false
   links:
@@ -123,12 +124,12 @@
 - id: critic-learning
   citekey: li2026rethinking
   title: "Rethinking Critic Learning in PPO: Understanding and Mitigating Value Flattening"
+  bib_protected_terms: ["PPO"]
   authors: ["Yizhuo Li", "Jianhao Yan", "Yun Luo", "Zhi Wang", "Futing Wang", "Rong-Xi Tan", "Kanghui Tian", "Ganqu Cui", "Ning Ding", "Peilin Zhao", "Yafu Li", "Yu Cheng"]
   equal_contributors: 2
   type: preprint
   venue: "arXiv preprint"
   arxiv: "2609.18708"
-  primary_class: cs.LG
   year: 2026
   featured: false
   links:
@@ -144,7 +145,6 @@
   type: preprint
   venue: "arXiv preprint"
   arxiv: "2609.01493"
-  primary_class: cs.LG
   year: 2026
   featured: false
   links:
@@ -158,7 +158,6 @@
   type: preprint
   venue: "arXiv preprint"
   arxiv: "2603.04000"
-  primary_class: cs.LG
   year: 2026
   featured: false
   links:
@@ -188,8 +187,8 @@
   venue: "Proceedings of the 13th International Conference on Learning Representations"
   acronym: ICLR
   year: 2025
+  address: "Singapore"
   featured: true
-  topic: "Black-box optimization · Offline-RaM"
   image: "/images/publications/offline-ram.png"
   image_alt: "Offline-RaM compares regression-based and order-preserving surrogate models for finding high-quality designs."
   image_width: 876
@@ -212,11 +211,11 @@
   venue: "Proceedings of the 41st International Conference on Machine Learning"
   acronym: ICML
   year: 2024
+  address: "Vienna, Austria"
   series: PMLR
   volume: "235"
   pages: "55595–55624"
   featured: true
-  topic: "Multi-objective optimization"
   image: "/images/publications/offline-moo.png"
   image_alt: "Offline MOO benchmark task families: synthetic functions, neural architecture search, reinforcement learning, combinatorial optimization, scientific design and real-world problems."
   image_width: 570

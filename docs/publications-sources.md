@@ -4,13 +4,14 @@ Verified on 7 October 2026. Homepage entries live in `_data/publications.yml`; b
 
 ## Formatting conventions
 
-- Preserve the official title's capitalization and hyphenation; do not apply CSS title case.
-- Use full author names, bold Rong-Xi Tan, and superscript * for equal contribution.
+- Preserve the official title and hyphenation in `title`. A separate `display_title` provides the requested title-case homepage heading for Nature Food; never apply CSS title case globally.
+- Use full author names and bold Rong-Xi Tan. Display co-first-author asterisks only on papers where Rong-Xi Tan is one of the equal contributors. Keep factual contribution metadata even when its markers are hidden.
 - Use the same order: title; authors; venue, volume(issue): pages or article number, year; resources. Omit fields that do not apply. Put in-press status after the year.
 - Use an en dash for page ranges. Article numbers are not page ranges.
 - Include PMLR volume and pagination for ICML papers. ICLR does not have a conventional proceedings page range.
 - Label resources consistently as [paper], [openreview], [arxiv], [code], and [bib]. Preprints link directly to their arXiv abstract page. No separate DOI label; no Nature Food code link.
 - Keep journal reviewer names in full, without appended abbreviations.
+- Omit per-paper topic/method subheadings; the title and figure identify each selected work.
 
 ## Verified records
 
@@ -37,9 +38,10 @@ The Google Scholar profile (`m82W6XUAAAAJ`) timed out during the 7 October check
 ## BibTeX maintenance
 
 - Every entry has a unique `citekey`. `_includes/academic-bibtex.bib` generates both the inline [bib] panel and the corresponding `files/bibtex/<id>.bib` download from the same YAML record.
-- Journal papers use `@article`, conference papers `@inproceedings`, and arXiv-only papers `@misc` with `eprint`, `archivePrefix`, and `primaryClass`. Article identifiers occupy the standard `pages` field for compatibility with classic BibTeX styles.
-- Preserve title capitalization with an extra pair of braces, use `and` between authors, `--` for page ranges, and a TeX accent for Jörgensen. Equal-contribution markers belong only in the webpage, not the BibTeX author field.
-- Do not add invented pages, conference acceptances, or DOI fields. The citation URL points to the primary publication record.
+- Follow the user-supplied [reference-writing guide](https://xuek-nju.notion.site/2a6ca732f30041be8eaa4e85301d3d58): journal `@article` fields are title, author, journal, volume, number, pages, year; conference `@inproceedings` fields are title, author, booktitle, pages, address, year. Omit unavailable fields. arXiv-only papers use `@article` with `journal={arXiv:<id>}`.
+- Export sentence-case titles without a whole-title protection group. Use `bib_protected_terms` for proper names/acronyms (BBOPlace-Bench, Bayesian, PPO); also protect the initial after a colon, as the guide requests. Use full author names joined by `and`, `--` for page ranges, and a TeX accent for Jörgensen. Never include co-first markers in BibTeX.
+- Spell out booktitles and include the conference acronym consistently. Conference locations were checked against the official [ICML 2026 call](https://icml.cc/Conferences/2026/CallForPapers), [ICML 2025 fact sheet (also records Vienna 2024)](https://media.icml.cc/Conferences/ICML2025/ICML2025_Fact_Sheet.pdf), and [ICLR 2025 venue](https://iclr.cc/Conferences/2025/VisaTravel).
+- No URL, DOI, publisher, series, eprint, archivePrefix, primaryClass, or status-note fields in the compact BibTeX. Journal article identifiers use `pages`; PMLR volume and in-press status remain on the webpage, but are omitted from BibTeX to match the guide. Never invent missing pagination.
 - Native HTML details and downloads work without JavaScript. The small `academic-bibtex.js` enhancement adds clipboard copying when supported and reports a manual-copy/download fallback if access fails.
 - When adding a paper, add its YAML record and a thin `.bib` wrapper containing its `paper_id`; no duplicated citation metadata is needed.
 
