@@ -25,6 +25,8 @@
   links:
     - label: Paper
       url: "https://www.nature.com/articles/s43016-026-01419-9"
+    - label: Code
+      url: "https://github.com/lamda-bbo/Soil-PUE"
 
 - id: genre2
   citekey: chen2026beyond
@@ -47,8 +49,6 @@
   figure_url: "https://arxiv.org/pdf/2512.06533#page=4"
   links:
     - label: Paper
-      url: "https://proceedings.mlr.press/v306/chen26ec.html"
-    - label: OpenReview
       url: "https://openreview.net/forum?id=ul2qlPcb5Y"
     - label: Code
       url: "https://github.com/lamda-bbo/GenRe2"
@@ -71,8 +71,6 @@
   figure_url: "https://arxiv.org/pdf/2510.23472#page=2"
   links:
     - label: Paper
-      url: "https://ieeexplore.ieee.org/document/11605958/"
-    - label: arXiv
       url: "https://arxiv.org/abs/2510.23472"
     - label: Code
       url: "https://github.com/lamda-bbo/BBOPlace-Bench"
@@ -101,8 +99,6 @@
     - "Also featured in [GECCO 2026 Companion, Hot off the Press](https://dl.acm.org/doi/10.1145/3795101.3814642), pp. 85–86."
   links:
     - label: Paper
-      url: "https://proceedings.mlr.press/v267/tan25b.html"
-    - label: OpenReview
       url: "https://openreview.net/forum?id=NOV32X1Rq3"
     - label: Code
       url: "https://github.com/lamda-bbo/universal-offline-bbo"
@@ -118,7 +114,7 @@
   year: 2026
   featured: false
   links:
-    - label: arXiv
+    - label: Paper
       url: "https://arxiv.org/abs/2609.34281"
 
 - id: critic-learning
@@ -133,7 +129,7 @@
   year: 2026
   featured: false
   links:
-    - label: arXiv
+    - label: Paper
       url: "https://arxiv.org/abs/2609.18708"
     - label: Code
       url: "https://github.com/Dodojordi/SP3O"
@@ -148,7 +144,7 @@
   year: 2026
   featured: false
   links:
-    - label: arXiv
+    - label: Paper
       url: "https://arxiv.org/abs/2609.01493"
 
 - id: learnability-ranking
@@ -161,7 +157,7 @@
   year: 2026
   featured: false
   links:
-    - label: arXiv
+    - label: Paper
       url: "https://arxiv.org/abs/2603.04000"
 
 - id: wetland-methane
@@ -196,9 +192,7 @@
   figure_url: "https://arxiv.org/pdf/2410.11502#page=2"
   links:
     - label: Paper
-      url: "https://openreview.net/forum?id=sb1HgVDLjN"
-    - label: arXiv
-      url: "https://arxiv.org/abs/2410.11502"
+      url: "http://arxiv.org/abs/2410.11502"
     - label: Code
       url: "https://github.com/lamda-bbo/Offline-RaM"
 
@@ -223,7 +217,7 @@
   figure_url: "https://arxiv.org/pdf/2406.03722#page=2"
   links:
     - label: Paper
-      url: "https://proceedings.mlr.press/v235/xue24b.html"
+      url: "https://arxiv.org/abs/2406.03722"
     - label: Code
       url: "https://github.com/lamda-bbo/offline-moo"
 

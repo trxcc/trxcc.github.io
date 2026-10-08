@@ -9,7 +9,7 @@ Verified on 7 October 2026. Homepage entries live in `_data/publications.yml`; b
 - Use the same order: title; authors; venue, volume(issue): pages or article number, year; resources. Omit fields that do not apply. Put in-press status after the year.
 - Use an en dash for page ranges. Article numbers are not page ranges.
 - Include PMLR volume and pagination for ICML papers. ICLR does not have a conventional proceedings page range.
-- Label resources consistently as [paper], [openreview], [arxiv], [code], and [bib]. Preprints link directly to their arXiv abstract page. No separate DOI label; no Nature Food code link.
+- Each work has exactly one [paper] resource link, plus [code] where available and [bib]. Do not add separate [openreview], [arxiv], or DOI labels. Reuse the pre-redesign homepage's paper destination rather than substituting a publisher/proceedings URL.
 - Keep journal reviewer names in full, without appended abbreviations.
 - Omit per-paper topic/method subheadings; the title and figure identify each selected work.
 
@@ -25,7 +25,7 @@ Verified on 7 October 2026. Homepage entries live in `_data/publications.yml`; b
 | Rethinking Critic Learning (SP³O) | [arXiv](https://arxiv.org/abs/2609.18708), [author manuscript](https://arxiv.org/html/2609.18708v1) | New preprint, 16 September 2026. Twelve authors; first two contribute equally. The manuscript links to [SP3O code](https://github.com/Dodojordi/SP3O). |
 | Rethinking Learnability | [arXiv](https://arxiv.org/abs/2609.01493) | Retained as a 2026 preprint; no confirmed proceedings information. |
 | Learnability: A Ranking Perspective | [arXiv](https://arxiv.org/abs/2603.04000) | Retained as a 2026 preprint; no confirmed proceedings information. |
-| BBOPlace-Bench | [IEEE](https://ieeexplore.ieee.org/document/11605958/), [publisher-deposited Crossref metadata](https://api.crossref.org/works/10.1109/tevc.2026.3712410), [Chao Qian's publication list](https://www.lamda.nju.edu.cn/qianc/) | Added 2026 and the IEEE article link. No final volume/issue; Crossref's 1–1 is a placeholder, not publication pagination. Retain in press. |
+| BBOPlace-Bench | [IEEE](https://ieeexplore.ieee.org/document/11605958/), [publisher-deposited Crossref metadata](https://api.crossref.org/works/10.1109/tevc.2026.3712410), [Chao Qian's publication list](https://www.lamda.nju.edu.cn/qianc/) | 2026. No final volume/issue; Crossref's 1–1 is a placeholder, not publication pagination. Retain in press. The homepage's [paper] link uses its original arXiv destination. |
 | Wetland methane | [Wiley](https://onlinelibrary.wiley.com/doi/10.1111/gcb.70748), [publisher-deposited Crossref metadata](https://api.crossref.org/works/10.1111/gcb.70748) | Global Change Biology, 2026, 32(2): e70748. |
 | Offline-RaM | [OpenReview](https://openreview.net/forum?id=sb1HgVDLjN), [Chao Qian's publication list](https://www.lamda.nju.edu.cn/qianc/) | ICLR 2025. Corrected Learning Representation to Learning Representations. |
 | Offline MOO | [PMLR](https://proceedings.mlr.press/v235/xue24b.html) | ICML 2024, PMLR 235: 55595–55624. Normalize Rongxi Tan to the homepage's Rong-Xi Tan. |
@@ -34,6 +34,12 @@ Verified on 7 October 2026. Homepage entries live in `_data/publications.yml`; b
 The Nature page was readable via an ordinary HTTP fetch even though the search browser's fetch hit a cookie redirect. The OpenReview and ACM landing pages could not be inspected in that fetcher; use PMLR, author manuscripts, advisor records, and publisher-deposited metadata as indicated above.
 
 The Google Scholar profile (`m82W6XUAAAAJ`) timed out during the 7 October check. As a fallback, checked arXiv's full author searches for both [Rong-Xi Tan](https://arxiv.org/search/?query=Tan%2C+Rong-Xi&searchtype=author&abstracts=hide&order=-announced_date_first&size=50) (eight results) and [Rongxi Tan](https://arxiv.org/search/?query=Tan%2C+Rongxi&searchtype=author&abstracts=hide&order=-announced_date_first&size=50) (one result). Those nine distinct arXiv works are represented in the homepage, with published works cited using the publisher record rather than counted again as preprints. This is not a claim that the entire Scholar profile was read.
+
+## Resource links (updated 8 October 2026)
+
+The user requested one [paper] link per work while retaining [code] and [bib]. Original destinations were recovered from `_pages/about.md` at commit `8bff2ac`, the last version before the redesign: OpenReview for GenRe² and Universal BBO; arXiv for BBOPlace-Bench, Offline-RaM, Offline MOO and the two existing preprints; publisher pages for the three other journals. Keep the two newly added preprints' arXiv destinations. Bibliographic metadata and figure-source URLs remain unchanged.
+
+Nature Food now also links to the user-specified [Soil-PUE repository](https://github.com/lamda-bbo/Soil-PUE), whose README identifies it as the paper's official implementation. Existing code links are retained.
 
 ## BibTeX maintenance
 
