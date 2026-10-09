@@ -2,6 +2,8 @@
 
 Verified on 7 October 2026. Homepage entries live in `_data/publications.yml`; both selected and compact entries use `_includes/academic-publication.html`. Each work appears once. The `featured` field controls the selected-work section; `image` independently controls whether an entry has a figure.
 
+On 9 October 2026, added AgenticBBO-Bench to Selected work and moved Offline MOO (ICML 2024) to the compact More papers section. Selected work remains six entries; no publication or citation was removed. The new record was checked separately against its arXiv abstract, PDF and linked code repository.
+
 ## Formatting conventions
 
 - Preserve the official title and hyphenation in `title`. A separate `display_title` provides the requested title-case homepage heading for Nature Food; never apply CSS title case globally.
@@ -17,6 +19,7 @@ Verified on 7 October 2026. Homepage entries live in `_data/publications.yml`; b
 
 | Work | Authoritative record | Notes |
 | --- | --- | --- |
+| AgenticBBO-Bench | [arXiv](https://arxiv.org/abs/2610.12183), [author manuscript](https://arxiv.org/pdf/2610.12183), [code](https://github.com/lamda-bbo/agentic-bbo) | Checked 9 October 2026. Preprint submitted 8 October 2026; eleven authors in manuscript order. The stars on Ke Xue and Chao Qian denote corresponding authors, not equal contribution. No co-first markers are displayed. Keep the user-supplied PDF destination for [paper]. |
 | Phosphorus use efficiency | [Nature Food](https://www.nature.com/articles/s43016-026-01419-9), [publisher-deposited Crossref metadata](https://api.crossref.org/works/10.1038/s43016-026-01419-9) | 2026, 7(9): 869–877. Published 1 September 2026. First three authors contribute equally. |
 | GenRe² | [PMLR](https://proceedings.mlr.press/v306/chen26ec.html), [author manuscript](https://arxiv.org/abs/2512.06533) | ICML 2026, PMLR 306: 16875–16909. Keep the requested OpenReview and Code links. |
 | Universal BBO | [PMLR](https://proceedings.mlr.press/v267/tan25b.html), [author manuscript](https://arxiv.org/abs/2506.07109) | ICML 2025, PMLR 267: 58499–58544. PMLR's landing-page author metadata inverts Sheng Fu; the PDF and author manuscript confirm Sheng Fu, which is retained. |
@@ -55,9 +58,10 @@ Nature Food now also links to the user-specified [Soil-PUE repository](https://g
 
 These are figures from the author's papers, not generated artwork. They link back to the original figure or manuscript page.
 
+- `images/publications/agentic-bbo-bench.png`: complete Figure 2 (without its caption) from page 4 of the [author manuscript](https://arxiv.org/pdf/2610.12183), rendered at 216 dpi. Crop bounds in PDF points, measured from the top left: (108, 82)–(505, 287); output 1191 × 615 pixels.
 - `images/publications/phosphorus-efficiency.png`: complete [Figure 1](https://www.nature.com/articles/s43016-026-01419-9/figures/1), downloaded from the publisher's image CDN without alteration.
 - `images/publications/genre2.png`: Figure 2 from page 4 of the [author manuscript](https://arxiv.org/pdf/2512.06533), rendered at 220 dpi with only the figure region included.
 - `images/publications/universal-bbo.png`: Figure 1 from page 3 of the [author manuscript](https://arxiv.org/pdf/2506.07109), rendered at 220 dpi with only the figure region included.
 - `images/publications/bboplace-bench.png`: complete Figure 1 (without its caption) from page 2 of the [author manuscript](https://arxiv.org/pdf/2510.23472), rendered at 144 dpi.
 - `images/publications/offline-ram.png`: complete Figure 1 (without its caption) from page 2 of the [author manuscript](https://arxiv.org/pdf/2410.11502), rendered at 216 dpi.
-- `images/publications/offline-moo.png`: the Tasks panel of Figure 1 from page 2 of the [author manuscript](https://arxiv.org/pdf/2406.03722), rendered at 216 dpi. Only the six benchmark task families are shown; the Methods and Evaluations panels are omitted.
+- `images/publications/offline-moo.png`: the Tasks panel of Figure 1 from page 2 of the [author manuscript](https://arxiv.org/pdf/2406.03722), rendered at 216 dpi. Only the six benchmark task families are shown; the Methods and Evaluations panels are omitted. Retained as an asset but no longer displayed after this paper moved to More papers on 9 October 2026.

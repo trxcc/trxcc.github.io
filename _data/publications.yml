@@ -3,7 +3,28 @@
 # homepage casing. Show co-first markers only when Rong-Xi Tan is co-first.
 # Never use placeholder page ranges. Protect only proper names in BibTeX.
 # Citekeys also feed the inline and downloadable BibTeX through one template.
-# Sources and figure provenance: docs/publications-sources.md (checked 2026-10-07).
+# Sources and figure provenance: docs/publications-sources.md (per-record check dates).
+- id: agentic-bbo-bench
+  citekey: chen2026closer
+  title: "A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization"
+  bib_protected_terms: ["BBO", "LLM"]
+  authors: ["Ming Chen", "Rong-Xi Tan", "Ke Xue", "Yu-Jie Zhou", "Taiye Lu", "Zhi-Xuan Gao", "Peng Xie", "Zijun Shen", "Chen Lu", "Haopu Shang", "Chao Qian"]
+  type: preprint
+  venue: "arXiv preprint"
+  arxiv: "2610.12183"
+  year: 2026
+  featured: true
+  image: "/images/publications/agentic-bbo-bench.png"
+  image_alt: "Traditional Bayesian optimization follows a fixed loop; Agentic BBO uses an LLM agent to analyze task information and history, plan, and use tools before proposing candidates."
+  image_width: 1191
+  image_height: 615
+  figure_url: "https://arxiv.org/pdf/2610.12183#page=4"
+  links:
+    - label: Paper
+      url: "https://arxiv.org/pdf/2610.12183"
+    - label: Code
+      url: "https://github.com/lamda-bbo/agentic-bbo"
+
 - id: phosphorus-efficiency
   citekey: sun2026global
   title: "Global patterns and feasible improvement potential of phosphorus use efficiency in cereal croplands"
@@ -209,12 +230,7 @@
   series: PMLR
   volume: "235"
   pages: "55595–55624"
-  featured: true
-  image: "/images/publications/offline-moo.png"
-  image_alt: "Offline MOO benchmark task families: synthetic functions, neural architecture search, reinforcement learning, combinatorial optimization, scientific design and real-world problems."
-  image_width: 570
-  image_height: 498
-  figure_url: "https://arxiv.org/pdf/2406.03722#page=2"
+  featured: false
   links:
     - label: Paper
       url: "https://arxiv.org/abs/2406.03722"
